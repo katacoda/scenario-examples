@@ -1,5 +1,4 @@
 {
-    "pathwayTitle": "Kubernetes",
     "title": "Launch Kubernetes Cluster",
     "description": "Learn how to launch a Kubernetes cluster including DNS and Kube UI",
     "difficulty": "beginner",
@@ -53,7 +52,7 @@
     ],
     "environment": {
         "uilayout": "terminal-v1",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
     },
     "backend": {
         "port": 8080,
