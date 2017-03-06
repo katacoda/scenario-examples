@@ -1,0 +1,33 @@
+{
+    "title": "Scenario with verified steps",
+    "description": "Check to make sure the user can proceed",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Verify",
+                "text": "step1.md",
+                "verify": "step1-verify.sh",
+                "answer": "step1-answer.md"
+            },
+            {
+                "title": "Step 2 - Background Files",
+                "text": "step2.md",
+                "courseData": "step2-course-data.sh"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "dockerimage": "git"
+    }
+}

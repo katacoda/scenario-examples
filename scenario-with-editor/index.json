@@ -1,0 +1,27 @@
+{
+    "icon": "fa-node",
+    "title": "Scenario with Editor UI",
+    "description": "Katacoda Scenario Example",
+    "authenticated": false,
+    "details": {
+        "steps": [
+            {
+                "title": "Hello World",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "files": [
+        "app.js"
+    ],
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "editor-terminal",
+        "uisettings": "javascript",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+    },
+    "backend": {
+        "image": "node"
+    }
+}
