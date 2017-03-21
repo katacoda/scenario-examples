@@ -1,0 +1,24 @@
+{
+  "title": "My First Scenario",
+  "description": "Learning how to educate via Katacoda",
+  "details": {
+    "steps": [
+      { "title": "Title", "text": "step1.md" },
+      { "title": "Goes", "text": "step2.md" },
+      { "title": "Here", "text": "step3.md" }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
