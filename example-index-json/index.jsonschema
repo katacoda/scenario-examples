@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "",
+  "properties": {
+    "backend": {
+      "id": "backend",
+      "properties": {
+        "dockerimage": {
+          "id": "backend/dockerimage",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "description": {
+      "id": "description",
+      "type": "string"
+    },
+    "details": {
+      "id": "details",
+      "properties": {
+        "assets": {
+          "id": "details/assets",
+          "properties": {
+            "client": {
+              "id": "details/assets/client",
+              "items": {
+                "id": "details/assets/client/0",
+                "properties": {
+                  "file": {
+                    "id": "details/assets/client/0/file",
+                    "type": "string"
+                  },
+                  "target": {
+                    "id": "details/assets/client/0/target",
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "host01": {
+              "id": "details/assets/host01",
+              "items": {
+                "id": "details/assets/host01/0",
+                "properties": {
+                  "file": {
+                    "id": "details/assets/host01/0/file",
+                    "type": "string"
+                  },
+                  "target": {
+                    "id": "details/assets/host01/0/target",
+                    "type": "string"
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            }
+          },
+          "type": "object"
+        },
+        "finish": {
+          "id": "details/finish",
+          "properties": {
+            "text": {
+              "id": "details/finish/text",
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "intro": {
+          "id": "details/intro",
+          "properties": {
+            "code": {
+              "id": "details/intro/code",
+              "type": "string"
+            },
+            "courseData": {
+              "id": "details/intro/courseData",
+              "type": "string"
+            },
+            "credits": {
+              "id": "details/intro/credits",
+              "type": "string"
+            },
+            "text": {
+              "id": "details/intro/text",
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "steps": {
+          "id": "details/steps",
+          "items": {
+            "id": "details/steps/0",
+            "properties": {
+              "answer": {
+                "id": "details/steps/0/answer",
+                "type": "string"
+              },
+              "code": {
+                "id": "details/steps/0/code",
+                "type": "string"
+              },
+              "courseData": {
+                "id": "details/steps/0/courseData",
+                "type": "string"
+              },
+              "text": {
+                "id": "details/steps/0/text",
+                "type": "string"
+              },
+              "title": {
+                "id": "details/steps/0/title",
+                "type": "string"
+              },
+              "verify": {
+                "id": "details/steps/0/verify",
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "difficulty": {
+      "id": "difficulty",
+      "type": "string"
+    },
+    "environment": {
+      "id": "environment",
+      "properties": {
+        "uilayout": {
+          "id": "environment/uilayout",
+          "type": "string"
+        },
+        "uimessage1": {
+          "id": "environment/uimessage1",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "files": {
+      "id": "files",
+      "items": {
+        "id": "files/0",
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "pathwayTitle": {
+      "id": "pathwayTitle",
+      "type": "string"
+    },
+    "time": {
+      "id": "time",
+      "type": "string"
+    },
+    "title": {
+      "id": "title",
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
