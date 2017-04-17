@@ -28,6 +28,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "dockerimage": "git"
+        "imageid": "git"
     }
 }
