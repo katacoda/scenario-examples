@@ -1,0 +1,24 @@
+{
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "text": "step1.md",
+                "courseData": "background.sh",
+                "code": "foreground.sh"
+            }
+        ],
+        "assets": {
+            "host01": [
+                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+                {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            ]
+        }
+    },
+    "environment": {
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
