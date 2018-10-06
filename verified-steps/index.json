@@ -1,6 +1,7 @@
 {
     "title": "Scenario with verified steps",
     "description": "Check to make sure the user can proceed",
+    "noindex": true,
     "details": {
         "steps": [
             {
