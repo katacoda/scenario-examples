@@ -1,0 +1,20 @@
+{
+  "title": "Istio and Kubernetes Workshop",
+  "description": "",
+  "courses": [
+    {
+      "pathway_id": "istio",
+      "id": "workshop/deploying-istio",
+      "course_id": "deploying-istio",
+      "title": "Deploying Istio to Kubernetes",
+      "description": "Learn how to deploy Istio to a Kubernetes cluster"
+    },
+    {
+      "pathway_id": "istio",
+      "id": "connecting-controlling-microservices/traffic-shaping",
+      "course_id": "traffic-shaping",
+      "title": "Connecting & Controlling: Traffic Shaping Microservices Connections",
+      "description": "Learn Load Balancing, Routes, Rules with Istio"
+    }
+  ]
+}
