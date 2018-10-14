@@ -1,0 +1,34 @@
+{
+    "title": "Katacoda UI Layouts Example",
+    "icon": "fa-katacoda",
+    "description": "Example of different Katacoda UI Layouts. Also, an example of creating a Katacoda Course!",
+    "paid": false,
+    "courses": [
+      {
+        "course_id": "uilayout-terminal",
+        "title": "Scenario with Terminal UI",
+        "description": "Katacoda Scenario Example"
+      },
+      {
+        "course_id": "uilayout-editor-terminal",
+        "title": "Scenario with Editor Terminal UI",
+        "description": "Katacoda Scenario Example"
+      },
+      {
+        "course_id": "uilayout-terminal-iframe",
+        "title": "Scenario with Terminal iFrame UI",
+        "description": "Katacoda Scenario Example"
+      },
+      {
+        "course_id": "uilayout-terminal-iframe-split",
+        "title": "Scenario with Terminal iFrame Split UI",
+        "description": "Katacoda Scenario Example"
+      },
+      {
+        "course_id": "uilayout-terminal-terminal",
+        "title": "Scenario with Terminal Terminal UI",
+        "description": "Katacoda Scenario Example"
+      }
+    ]
+  }
+  

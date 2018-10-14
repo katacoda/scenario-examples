@@ -1,0 +1,21 @@
+{
+    "noindex": true,
+    "title": "Scenario with Terminal Terminal UI",
+    "description": "Katacoda Scenario Example",
+    "details": {
+        "steps": [
+            {
+                "title": "Hello World",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "terminal-terminal"
+    },
+    "backend": {
+        "imageid": "docker-swarm"
+    }
+}

@@ -1,6 +1,6 @@
 {
     "noindex": true,
-    "title": "Scenario with Editor UI",
+    "title": "Scenario with Editor Terminal UI",
     "description": "Katacoda Scenario Example",
     "details": {
         "steps": [
@@ -20,6 +20,6 @@
         "uisettings": "javascript"
     },
     "backend": {
-        "image": "node"
+        "imageid": "node"
     }
 }
