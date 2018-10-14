@@ -1,6 +1,6 @@
 {
-  "title": "Istio and Kubernetes Workshop",
-  "description": "",
+  "title": "Training Pathway Example",
+  "description": "When using Katacoda for Trainers, the pathway defines the course for attendees",
   "courses": [
     {
       "pathway_id": "istio",

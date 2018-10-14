@@ -1,5 +1,7 @@
 {
     "noindex": true,
+    "title": "Upload File Assets",
+    "description": "Automatically upload file assets to the environment",
     "details": {
         "steps": [
             {

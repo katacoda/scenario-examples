@@ -1,5 +1,7 @@
 {
     "noindex": true,
+    "title": "Tabs",
+    "description": "Add Additional Tabs to the UI",
     "details": {
         "steps": [
             {

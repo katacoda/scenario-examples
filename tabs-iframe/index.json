@@ -1,5 +1,7 @@
 {
     "noindex": true,
+    "title": "Tabs (iFrame)",
+    "description": "Add Additional Tabs to the UI with iFrame integration",
     "details": {
         "steps": [
             {
@@ -24,7 +26,7 @@
         "uilayout": "terminal-iframe"
     },
     "backend": {
-      "imageid": "docker",
+      "imageid": "bash",
       "port": 80
     }
 }

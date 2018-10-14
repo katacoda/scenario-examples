@@ -1,5 +1,7 @@
 {
     "noindex": true,
+    "title": "Markdown Extensions",
+    "description": "Examples of how the Katacoda Markdown Extensions",
     "details": {
         "steps": [
             {
