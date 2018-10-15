@@ -1,0 +1,68 @@
+{
+    "title": "Profile Title",
+    "courses": [
+      {
+        "title": "Katacoda UI Layouts Example",
+        "description": "Example of different Katacoda UI Layouts. Also, an example of creating a Katacoda Course!",
+        "id": "uilayouts"
+      }
+    ],
+    "scenarios": [
+      {
+        "title": "Markdown Extensions",
+        "description": "Examples of how the Katacoda Markdown Extensions",
+        "id": "markdown-extensions"
+      },
+      {
+        "title": "Clipboard Integration",
+        "description": "Understand how the Katacoda Clipboard integration",
+        "id": "clipboard"
+      },
+      {
+        "title": "Interactive Quiz",
+        "description": "Verify understand and key points by using an interactive quiz",
+        "id": "quiz"
+      },
+      {
+        "title": "Run Commands Automatically",
+        "description": "Automatically run commands in the foreground and background when a scenario starts",
+        "id": "run-commands-automatically"
+      },
+      {
+        "title": "Displaying Progress Spinner",
+        "description": "Display a friendly spinner while long running jobs are completed",
+        "id": "displaying-progress-spinner"
+      },
+      {
+        "title": "Verified user actions during scenario",
+        "description": "Run checks to make sure the user can proceed. Scenario also offers user solutions if they struggle",
+        "id": "verified-steps"
+      },
+      {
+        "title": "Dashboard and Terminal Tabs",
+        "description": "Add Additional Tabs to the UI",
+        "id": "tabs"
+      },
+      {
+        "title": "Dashboard and Terminal Tabs (IFrame)",
+        "description": "Add Additional Tabs to the UI with iFrame integration",
+        "id": "tabs-iframe"
+      },
+      {
+        "title": "Visualise Environment Tab",
+        "description": "Learn how to add the Visualise Tab",
+        "id": "visualise-docker"
+      },
+      {
+        "title": "Upload File Assets",
+        "description": "Automatically upload file assets to the environment",
+        "id": "upload-assets"
+      },
+      {
+        "title": "",
+        "description": "",
+        "id": "displaying-images"
+      }
+    ]
+  }
+  

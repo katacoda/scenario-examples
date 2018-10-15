@@ -1,21 +1,14 @@
 {
     "noindex": true,
-    "title": "Visualise Tabs",
+    "title": "Visualise Environment Tab",
     "description": "Learn how to add the Visualise Tab",
     "details": {
         "steps": [
             {
-                "title": "Step 1",
+                "title": "",
                 "text": "step1.md"
             }
-        ],
-        "intro": {
-            "text": "intro.md",
-            "credits": ""
-        },
-        "finish": {
-            "text": "finish.md"
-        }
+        ]
     },
     "files": [],
     "environment": {

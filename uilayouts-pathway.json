@@ -1,8 +1,7 @@
 {
     "title": "Katacoda UI Layouts Example",
-    "icon": "fa-katacoda",
     "description": "Example of different Katacoda UI Layouts. Also, an example of creating a Katacoda Course!",
-    "paid": false,
+    "icon": "fa-katacoda",
     "courses": [
       {
         "course_id": "uilayout-terminal",
