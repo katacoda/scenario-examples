@@ -19,10 +19,9 @@
     },
     "environment": {
         "showdashboard": true,
-        "dashboards": [{"name": "Port 80", "port": 80},
-            {"name": "URL", "href": "https://www.google.co.uk"},
+        "dashboards": [{"name": "URL", "href": "https://www.google.co.uk"},
+            {"name": "Port 80", "port": 80},
             {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
-        "terminals": [{"name": "Docker Stats", "command": "docker stats", "target": "host01"}],
         "uilayout": "terminal-iframe"
     },
     "backend": {

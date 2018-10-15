@@ -5,24 +5,26 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1",
+                "title": "Dashboard Tabs",
                 "text": "step1.md"
+            },
+            {
+                "title": "Terminal Tabs",
+                "text": "step2.md"
             }
-        ],
-        "intro": {
-            "text": "intro.md",
-            "credits": ""
-        },
-        "finish": {
-            "text": "finish.md"
-        }
+        ]
     },
     "environment": {
+        "hideintro": true,
+        "hidefinish": true,
         "showdashboard": true,
         "dashboards": [{"name": "Port 80", "port": 80},
             {"name": "URL", "href": "https://www.google.co.uk"},
             {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
-        "terminals": [{"name": "Docker Stats", "command": "docker stats", "target": "host01"}],
+        "terminals": [
+            {"name": "Terminal 2", "target": "host01"},
+            {"name": "Docker Stats", "command": "docker stats", "target": "host01"}
+        ],
         "uilayout": "terminal"
     },
     "backend": {

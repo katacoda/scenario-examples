@@ -1,19 +1,22 @@
-Your learning environment has access to two machines, one for running the DC/OS master and another for the agent.
+Adding Dashboard tabs to a Katacoda scenario can improve the user experience by making commonly used websites, or ports, easily accessible.
 
-The master is responsible for hosting the DC/OS dashboard, Mesos and Marathon. They manage scheduling tasks between the different agents and providing visibility into the cluster health. It is accessible via the DNS name _master_.
+Katacoda supports three types of Dashboard tabs.
 
-The agent runs tasks deployed via Mesos and Marathon. The agent is capable of running different types of tasks, the most common being Docker Containers. It is accessible via the DNS name _agent01_.
+1) **Displaying External Webpages**. This is useful when you require a link to an external service such as a Cloud Dashboard or Documentation.
 
-The interactive terminal is your client. It is configured with the DC/OS CLI and can communicate with both the master and agent.
+2) **Rendering Proxied Port**. When running a service on a Port within the Environment, Katacoda provides a dynamic URL for the session. This tab will automatically create the correct URL based on the Port you want to display.
 
-## Task
+3) **Rendering Proxied URL**. Similar to Approach 2, the href parameter supports the standard Katacoda placeholder values, allowing you to direct users to a particular page within to the service running within the Katacoda environment.
 
-To begin, ensure the DC/OS cluster is running by executing `launch.sh`{{execute}}. The script ensures that the DC/OS Master is running.
+The `index.json` used to create the scenarios is shown below. It is important to remember to set the "showdashboard" variable.
 
-## Install DC/OS CLI
+<pre>
+"environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "URL", "href": "https://www.google.co.uk"},
+        {"name": "Port 80", "port": 80},
+        {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}]
+}
+</pre>
 
-Once the cluster has started, configure the CLI to talk to the newly started cluster.
-
-`dcos config set core.dcos_url https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com`{{execute}}
-
-The CLI can be viewed to see the state, health and also deploy tasks. We will use this in the next step to inspect the cluster state.
+The next step describes how to create additional Terminal tabs.
