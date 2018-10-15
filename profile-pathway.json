@@ -34,19 +34,19 @@
         "id": "displaying-progress-spinner"
       },
       {
-        "title": "Verified user actions during scenario",
+        "title": "Verifying user actions during scenario",
         "description": "Run checks to make sure the user can proceed. Scenario also offers user solutions if they struggle",
         "id": "verified-steps"
       },
       {
         "title": "Dashboard and Terminal Tabs",
         "description": "Add Additional Tabs to the UI",
-        "id": "tabs"
+        "id": "dashboard-tabs"
       },
       {
         "title": "Dashboard and Terminal Tabs (IFrame)",
         "description": "Add Additional Tabs to the UI with iFrame integration",
-        "id": "tabs-iframe"
+        "id": "dashboard-tabs-iframe"
       },
       {
         "title": "Visualise Environment Tab",
@@ -59,8 +59,8 @@
         "id": "upload-assets"
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Displaying Images",
+        "description": "Display images as part of the scenario",
         "id": "displaying-images"
       }
     ]

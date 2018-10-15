@@ -1,7 +1,7 @@
 {
     "noindex": true,
-    "title": "Dashboard and Terminal Tabs (IFrame)",
-    "description": "Add Additional Tabs to the UI with iFrame integration",
+    "title": "Dashboard and Terminal Tabs (iframe)",
+    "description": "Add Additional Tabs to the UI with iframe integration",
     "details": {
         "steps": [
             {
