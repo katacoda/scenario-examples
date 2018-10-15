@@ -8,16 +8,10 @@
                 "title": "Step 1",
                 "text": "step1.md"
             }
-        ],
-        "intro": {
-            "text": "intro.md",
-            "credits": ""
-        },
-        "finish": {
-            "text": "finish.md"
-        }
+        ]
     },
     "environment": {
+        "hideintro": true, "hidefinish": true,
         "showdashboard": true,
         "dashboards": [{"name": "URL", "href": "https://www.google.co.uk"},
             {"name": "Port 80", "port": 80},

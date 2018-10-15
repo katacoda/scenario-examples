@@ -7,21 +7,14 @@
             {
                 "title": "Step 1 - Verify",
                 "text": "step1.md",
-                "verify": "step1-verify.sh",
-                "answer": "step1-answer.md"
+                "verify": "step1-verify.sh"
             },
             {
-                "title": "Step 2 - Background Files",
+                "title": "Step 2 - Show Answers",
                 "text": "step2.md",
-                "courseData": "step2-course-data.sh"
+                "answer": "step2-answer.md"
             }
-        ],
-        "intro": {
-            "text": "intro.md"
-        },
-        "finish": {
-            "text": "finish.md"
-        }
+        ]
     },
     "environment": {
         "hideintro": true,
