@@ -1,6 +1,6 @@
 {
-    "title": "Scenario with verified steps",
-    "description": "Check to make sure the user can proceed",
+    "title": "Verified user actions during scenario",
+    "description": "Run checks to make sure the user can proceed. Scenario also offers user solutions if they struggle",
     "noindex": true,
     "details": {
         "steps": [

@@ -5,12 +5,14 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1",
+                "title": "",
                 "text": "step1.md"
             }
         ]
     },
     "environment": {
+        "hideintro": true,
+        "hidefinish": true,
         "uilayout": "terminal"
     },
     "backend": {
