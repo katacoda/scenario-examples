@@ -15,6 +15,10 @@ echo "done" >> /opt/.backgroundfinished
 
 </pre>
 
-The 
+The foreground script waits for the file to be created. After the file exists, the while loop finishes and the user is allowed to access the terminal.
+
+<pre class="file">
+echo "Waiting to complete"; while [ ! -f /opt/.backgroundfinished ] ; do sleep 2; done; echo "Done"
+</pre>
 
 This can be improved by displaying a Progress Spinner to the user as described in an additional scenario.
