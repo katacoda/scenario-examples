@@ -1,0 +1,39 @@
+{
+    "noindex": true,
+    "title": "Run Commands Automatically",
+    "description": "Automatically run commands in the foreground and background when a scenario starts",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2",
+                "courseData": "step2-background.sh",
+                "code": "step2-foreground.sh",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3",
+                "courseData": "step3-background.sh",
+                "code": "step3-foreground.sh",
+                "text": "step3.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "background.sh",
+            "code": "foreground.sh",
+            "credits": ""
+        }
+    },
+    "files": [],
+    "environment": {
+        "hidefinish": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

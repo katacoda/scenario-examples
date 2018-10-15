@@ -1,0 +1,29 @@
+{
+    "noindex": true,
+    "title": "Displaying Progress Spinner",
+    "description": "Display a friendly spinner while long running jobs are completed",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "courseData": "background.sh",
+                "code": "foreground.sh",
+                "text": "step1.md"
+            }
+        ],
+        "assets": {
+            "host01": [
+                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            ]
+        }
+    },
+    "files": [],
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
