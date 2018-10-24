@@ -5,7 +5,7 @@ In this case, using files as notifications can be useful.
 For example, the following is a background script that is running:
 
 <pre class="file">
-!#/bin/bash
+#!/bin/bash
 
 echo "This is a background script with a long running process"
 

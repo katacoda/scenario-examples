@@ -16,7 +16,7 @@
         "uilayout": "terminal-iframe-split"
     },
     "backend": {
-        "imageid": "node",
-        "port": 3000
+        "imageid": "docker",
+        "port": 80
     }
 }

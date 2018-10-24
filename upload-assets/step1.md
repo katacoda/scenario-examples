@@ -21,4 +21,10 @@ The following is an example from the `index.json`.
 },
 </pre>
 
+View the uploaded files:
+
+`cat /usr/local/bin/wait.sh`{{execute}}
+
+`cat /usr/local/bin/deploy.sh`{{execute}}
+
 **Note:** There is currently a file limit of 1mb. If the file is greater than 1mb, for performance, we recommend using a CDN and using cURL to download the file.
