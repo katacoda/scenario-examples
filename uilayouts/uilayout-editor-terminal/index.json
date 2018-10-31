@@ -5,7 +5,6 @@
     "details": {
         "steps": [
             {
-                "title": "Hello World",
                 "text": "step1.md"
             }
         ]
