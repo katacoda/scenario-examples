@@ -60,14 +60,10 @@ If the terminal is not open, it will launch and the command will be executed.
 <pre>
 `echo "Run in Terminal 1"`{{execute T1}}
 
-`echo "Open and Execute in Terminal 3"`{{execute T3}}
+`echo "Open and Execute in Terminal 2"`{{execute T2}}
 
-`echo "Open and Execute in Terminal 4"`{{execute T4}}
 </pre>
 
 `echo "Run in Terminal 1"`{{execute T1}}
 
-`echo "Open and Execute in Terminal 3"`{{execute T3}}
-
-`echo "Open and Execute in Terminal 4"`{{execute T4}}
-
+`echo "Open and Execute in Terminal 2"`{{execute T2}}
