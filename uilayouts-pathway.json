@@ -31,7 +31,7 @@
       {
         "title": "Visualise Environment Tab",
         "description": "Learn how to add the Visualise Tab",
-        "pathway_id": "test",
+        "pathway_id": "scenario-examples",
         "course_id": "visualise-docker"
       }
     ]
