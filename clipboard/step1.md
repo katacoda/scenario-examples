@@ -29,7 +29,7 @@ Copy Me To The Clipboard!!
 Not a file
 </pre>
 
-was created by the HTML:
+This was created by the HTML:
 
 <pre>
 &#x3C;pre data-target=&#x22;clipboard&#x22;&#x3E;

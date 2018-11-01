@@ -1,4 +1,4 @@
-In this scenario, a long running task has been started in the background.
+In this scenario, a long running task has been started in the background. 
 
 To display the user with feedback, a wait script is run in the foreground. The wait script was uploaded as a Asset to Katacoda.
 

@@ -3,11 +3,14 @@
     "title": "Displaying Progress Spinner",
     "description": "Display a friendly spinner while long running jobs are completed",
     "details": {
+        "intro": {
+            "courseData": "background.sh",
+            "code": "foreground.sh",
+            "text": "intro.md"
+        },
         "steps": [
             {
                 "title": "Step 1",
-                "courseData": "background.sh",
-                "code": "foreground.sh",
                 "text": "step1.md"
             }
         ],
@@ -19,7 +22,6 @@
     },
     "files": [],
     "environment": {
-        "hidefinish": true,
         "uilayout": "terminal"
     },
     "backend": {

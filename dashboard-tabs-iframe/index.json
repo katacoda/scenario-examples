@@ -11,7 +11,7 @@
         ]
     },
     "environment": {
-        "hideintro": true, "hidefinish": true,
+        "hideintro": true,
         "showdashboard": true,
         "dashboards": [{"name": "URL", "href": "https://www.google.co.uk"},
             {"name": "Port 80", "port": 80},
