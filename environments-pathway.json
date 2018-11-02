@@ -1,0 +1,38 @@
+{
+    "title": "Katacoda Environments",
+    "description": "Available Katacoda Environments",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "ubuntu",
+        "title": "Ubuntu 16.04 Instance",
+        "description": "General purpose environment"
+      },
+      {
+        "course_id": "docker",
+        "title": "Docker",
+        "description": "General purpose Docker environment"
+      },
+      {
+        "course_id": "docker-swarm",
+        "title": "Docker Swarm",
+        "description": "Two-node Docker cluster designed for teaching Swarm"
+      },
+      {
+        "course_id": "kubernetes",
+        "title": "Kubernetes",
+        "description": "Single node Kubernetes cluster configured using Kubeadm"
+      },
+      {
+        "course_id": "minikube",
+        "title": "Minikube",
+        "description": "Use Minikube to help explain Kubernetes"
+      },
+      {
+        "course_id": "",
+        "title": "Minikube",
+        "description": "Use Minikube to help explain Kubernetes"
+      }
+    ]
+  }
+  
