@@ -4,6 +4,11 @@
         "title": "Katacoda UI Layouts Example",
         "description": "Example of different Katacoda UI Layouts. Also, an example of creating a Katacoda Course!",
         "id": "uilayouts"
+      },
+      {
+        "title": "Katacoda Environments",
+        "description": "Example of selective available Katacoda Environments. More examples coming soon!",
+        "id": "environments"
       }
     ],
     "scenarios": [
