@@ -1,0 +1,65 @@
+{
+    "courses": [
+      {
+        "title": "Markdown Extensions",
+        "description": "Examples of how the Katacoda Markdown Extensions",
+        "id": "markdown-extensions"
+      },
+      {
+        "title": "Clipboard Integration",
+        "description": "Understand how the Katacoda Clipboard integration",
+        "id": "clipboard"
+      },
+      {
+        "title": "Interactive Quiz",
+        "description": "Verify understand and key points by using an interactive quiz",
+        "id": "quiz"
+      },
+      {
+        "title": "Displaying Running Web UI and Ports",
+        "description": "Display a Web UI and access services running within the environment",
+        "id": "display-web-ui"
+      },
+      {
+        "title": "Run Commands Automatically",
+        "description": "Automatically run commands in the foreground and background when a scenario starts",
+        "id": "run-commands-automatically"
+      },
+      {
+        "title": "Displaying Progress Spinner",
+        "description": "Display a friendly spinner while long running jobs are completed",
+        "id": "displaying-progress-spinner"
+      },
+      {
+        "title": "Verifying user actions during scenario",
+        "description": "Run checks to make sure the user can proceed. Scenario also offers user solutions if they struggle",
+        "id": "verified-steps"
+      },
+      {
+        "title": "Dashboard and Terminal Tabs",
+        "description": "Add Additional Tabs to the UI",
+        "id": "dashboard-tabs"
+      },
+      {
+        "title": "Dashboard and Terminal Tabs (IFrame)",
+        "description": "Add Additional Tabs to the UI with iFrame integration",
+        "id": "dashboard-tabs-iframe"
+      },
+      {
+        "title": "Visualise Environment Tab",
+        "description": "Learn how to add the Visualise Tab",
+        "id": "visualise-docker"
+      },
+      {
+        "title": "Upload File Assets",
+        "description": "Automatically upload file assets to the environment",
+        "id": "upload-assets"
+      },
+      {
+        "title": "Displaying Images",
+        "description": "Display images as part of the scenario",
+        "id": "displaying-images"
+      }
+    ]
+  }
+  

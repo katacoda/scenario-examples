@@ -30,7 +30,6 @@
     },
     "files": [],
     "environment": {
-        "hidefinish": true,
         "uilayout": "terminal"
     },
     "backend": {

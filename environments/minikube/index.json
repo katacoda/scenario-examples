@@ -4,15 +4,15 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Starting",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Debugging",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Using",
         "text": "step3.md"
       }
     ],

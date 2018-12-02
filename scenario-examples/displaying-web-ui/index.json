@@ -1,0 +1,21 @@
+{
+    "noindex": true,
+    "title": "Displaying Running Web UI and Ports",
+    "description": "Display a Web UI and access services running within the environment",
+    "details": {
+        "steps": [
+            {
+                "title": "",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "files": [],
+    "environment": {
+        "hideintro": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

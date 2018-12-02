@@ -19,7 +19,7 @@
         }
     },
     "environment": {
-        "hideintro": true, "hidefinish": true,
+        "hideintro": true,
         "uilayout": "terminal"
     },
     "backend": {
