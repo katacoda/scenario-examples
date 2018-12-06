@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Starting",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
@@ -12,7 +12,7 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Using",
+        "title": "Step 3",
         "text": "step3.md"
       }
     ],
