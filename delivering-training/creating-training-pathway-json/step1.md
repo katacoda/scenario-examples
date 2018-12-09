@@ -16,8 +16,8 @@ Within the file, the training outlines the content that will be delivered. In th
 }
 </pre>
 
-The **id** is the scenario id and any courses that it could be within, in this case the course is called workshop. The **course_id** allows the ID to be overriden and the possibility to change the URL.
+The **id** is the scenario id and any courses that it could be within, in this case the course is called workshop. The **course_id** allows the ID to be overridden and the possibility to change the URL.
 
 When live, the training would appear under the profile at [katacoda.com/scenario-examples/training/training-example](https://katacoda.com/scenario-examples/training/training-example). 
 
-When delivering the training, Katacoda for Trainers, offers a number of capabilities. Firstly, attendees would have guarnteeed capacity, with the possability of increased preformance that last for the entire workshop.
+When delivering the training, Katacoda for Trainers, offers a number of capabilities. Firstly, attendees would have guaranteed capacity, with the possibility of increased performance that last for the entire workshop.

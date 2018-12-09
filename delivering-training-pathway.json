@@ -1,0 +1,13 @@
+{
+    "title": "Delivering Training with Katacoda",
+    "description": "",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "creating-training-pathway-json",
+        "title": "Creating Training Pathway.json File",
+        "description": "Learn how to define the scenarios to deliver for training"
+      }
+    ]
+  }
+  

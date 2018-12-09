@@ -2,9 +2,9 @@ Katacoda supports inline interactive quiz elements that can be included as any s
 
 ## Example Quiz
 
-Within Q1, requires are users to enter the extact string.
+Within Q1, requires are users to enter the exact string.
 
->>Q1: Enter the extact string test<<
+>>Q1: Enter the exact string test<<
 === test
 
 For Q2, the question requires user to enter a string containing a certain keyword.
