@@ -1,4 +1,4 @@
-Within each step, a series of Markdown extensions have been created that can provide various details for the users experience.
+Within each step, a series of Markdown extensions have been created that can provide various details for the users' experience.
 
 For example, commands such as `echo "Run in Terminal"`{{execute}}
  can be executed by clicking the command.

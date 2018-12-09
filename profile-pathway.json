@@ -13,6 +13,16 @@
     ],
     "scenarios": [
       {
+        "title": "Create Katacoda Course",
+        "description": "Learn how to create a collection of Katacoda scenarios into a course",
+        "id": "create-scenario-101"
+      },
+      {
+        "title": "Creating a Katacoda Course",
+        "description": "Learn how to create a collection of Katacoda scenarios into a course",
+        "id": "create-course"
+      },
+      {
         "title": "Markdown Extensions",
         "description": "Examples of how the Katacoda Markdown Extensions",
         "id": "markdown-extensions"
