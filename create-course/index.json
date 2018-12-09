@@ -1,19 +1,15 @@
 {
-  "title": "Create Katacoda Course",
+  "title": "Creating a Katacoda Course",
   "description": "Learn how to create a collection of Katacoda scenarios into a course",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Pathway Files",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Reusing Scenarios",
         "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
@@ -27,6 +23,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "bash"
   }
 }

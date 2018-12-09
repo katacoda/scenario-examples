@@ -1,0 +1,1 @@
+In this scenario you will understand how to use the Docker environment.

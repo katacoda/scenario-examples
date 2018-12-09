@@ -1,19 +1,11 @@
 {
   "title": "Creating Training Pathway.json File",
-  "description": "Learn how to create define the scenarios to deliver for training",
+  "description": "Learn how to define the scenarios to deliver for training",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - training-pathway.json",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {

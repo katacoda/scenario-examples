@@ -24,12 +24,12 @@
         "description": "Single node Kubernetes cluster configured using Kubeadm"
       },
       {
-        "course_id": "minikube",
-        "title": "Minikube",
-        "description": "Use Minikube to help explain Kubernetes"
+        "course_id": "kubernetes-cluster",
+        "title": "Kubernetes Cluster",
+        "description": "Multi node Kubernetes cluster configured using Kubeadm"
       },
       {
-        "course_id": "",
+        "course_id": "minikube",
         "title": "Minikube",
         "description": "Use Minikube to help explain Kubernetes"
       }

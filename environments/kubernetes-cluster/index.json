@@ -1,6 +1,6 @@
 {
-  "title": "Minikube",
-  "description": "Use Minikube to help explain Kubernetes",
+  "title": "Kubernetes",
+  "description": "Multi node Kubernetes cluster configured using Kubeadm",
   "details": {
     "steps": [
       {
@@ -10,10 +10,6 @@
       {
         "title": "Step 2",
         "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
@@ -24,10 +20,9 @@
     }
   },
   "environment": {
-    "hideintro": true,
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "minikube"
+    "imageid": "kubernetes-cluster"
   }
 }

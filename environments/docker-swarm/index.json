@@ -4,16 +4,12 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Layout",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Multiple Nodes",
         "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
@@ -24,6 +20,7 @@
     }
   },
   "environment": {
+    "hidefinish": false,
     "uilayout": "terminal-terminal"
   },
   "backend": {
