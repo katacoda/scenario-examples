@@ -1,6 +1,6 @@
 A training pathway follows the same structure as course pathway files that was discussed in the scenario [katacoda.com/scenario-examples/create-course](katacoda.com/scenario-examples/create-course).
 
-Clone the example repository with the command `git clone github.com/katacoda/scenario-examples katacoda-scenario-examples`{{execute}}
+Clone the example repository with the command `git clone https://github.com/katacoda/scenario-examples.git katacoda-scenario-examples`{{execute}}
 
 Within the root of a repository the training pathway files need to be in a directory called training. The contents of the course has been defined as `katacoda-scenario-examples/training/training-example-pathway.json`{{open}}.
 
