@@ -1,0 +1,26 @@
+{
+    "title": "Displaying Web UI ",
+    "description": "Learn how to access a Web UI running on the environment",
+    "difficulty": "easy",
+    "time": "10 minutes",
+    "details": {
+        "steps": [
+            {
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "hideintro": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
