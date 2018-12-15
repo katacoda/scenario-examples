@@ -53,6 +53,11 @@
         "id": "verified-steps"
       },
       {
+        "title": "Displaying Web UI",
+        "description": "Display a Web UI running on the environment",
+        "id": "displaying-web-ui"
+      },
+      {
         "title": "Dashboard and Terminal Tabs",
         "description": "Add Additional Tabs to the UI",
         "id": "dashboard-tabs"
