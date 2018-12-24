@@ -19,7 +19,7 @@
         "uilayout": "terminal-iframe"
     },
     "backend": {
-      "imageid": "bash",
+      "imageid": "ubuntu",
       "port": 80
     }
 }
