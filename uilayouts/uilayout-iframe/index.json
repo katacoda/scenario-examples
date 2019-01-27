@@ -1,0 +1,23 @@
+{
+    "noindex": true,
+    "title": "Scenario with Terminal iFrame UI",
+    "description": "Katacoda Scenario Example",
+    "details": {
+        "steps": [
+            {
+                "title": "",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "showdashboards": true,
+        "uilayout": "terminal-iframe"
+    },
+    "backend": {
+        "imageid": "node",
+        "port": 3000
+    }
+}

@@ -24,6 +24,11 @@
         "description": "Katacoda Scenario Example"
       },
       {
+        "course_id": "uilayout-iframe",
+        "title": "Scenario with iFrame only UI",
+        "description": ""
+      },
+      {
         "course_id": "uilayout-terminal-terminal",
         "title": "Scenario with Terminal Terminal UI",
         "description": "Katacoda Scenario Example"
