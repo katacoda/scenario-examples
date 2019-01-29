@@ -9,7 +9,7 @@ Example:
     "uilayout": "iframe"
 },
 "backend": {
-    "src": "http://httpbin.org"
+    "url": "http://httpbin.org"
 }
 </pre>
 

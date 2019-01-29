@@ -13,11 +13,9 @@
     "environment": {
         "hideintro": true,
         "hidefinish": true,
-        "showdashboards": true,
-        "uilayout": "terminal-iframe"
+        "uilayout": "iframe"
     },
     "backend": {
-        "imageid": "node",
-        "port": 3000
+        "url": "http://httpbin.org"
     }
 }
