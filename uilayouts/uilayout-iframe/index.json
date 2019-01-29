@@ -16,6 +16,6 @@
         "uilayout": "iframe"
     },
     "backend": {
-        "url": "http://httpbin.org"
+        "url": "https://httpbin.org"
     }
 }
