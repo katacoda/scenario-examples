@@ -9,7 +9,10 @@ Example:
     "uilayout": "iframe"
 },
 "backend": {
-    "url": "http://httpbin.org"
+    "url": "https://httpbin.org"
 }
 </pre>
 
+## Important
+
+The URL must be HTTPS and not block being embedded via an iframe.
