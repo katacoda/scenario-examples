@@ -1,4 +1,4 @@
-A training pathway follows the same structure as course pathway files that was discussed in the scenario [katacoda.com/scenario-examples/create-course](katacoda.com/scenario-examples/create-course).
+A training pathway follows the same structure as course pathway files that was discussed in the scenario [katacoda.com/scenario-examples/scenarios/create-course](https://katacoda.com/scenario-examples/scenarios/create-course).
 
 Clone the example repository with the command `git clone https://github.com/katacoda/scenario-examples.git katacoda-scenario-examples`{{execute}}
 
