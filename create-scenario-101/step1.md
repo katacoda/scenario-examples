@@ -14,4 +14,4 @@ An example of the current step is `katacoda-scenario-examples/create-scenario-10
 
 All the steps are collected via a JSON file, for example, `katacoda-scenario-examples/create-scenario-101/index.json`{{open}}.
 
-The JSON file defines the scenario title, the description, steps order, the UI layout and environment. You can find more about the layouts within our scenarios at [katacoda.com/scenario-examples/ui-layouts](https://katacoda.com/scenario-examples/ui-layouts) and environments at [katacoda.com/scenario-examples/environments](https://katacoda.com/scenario-examples/environments).
+The JSON file defines the scenario title, the description, steps order, the UI layout and environment. You can find more about the layouts within our scenarios at [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts) and environments at [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments).
