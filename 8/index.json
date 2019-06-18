@@ -1,0 +1,38 @@
+{
+	"backend": {
+		"imageid": "docker-node"
+	},
+	"files": ["App"],
+	"environment": {
+		"uilayout": "editor",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Start Mongo",
+			"text": "step1.md"
+		}, {
+			"title": "Update Config",
+			"text": "step2.md"
+		}, {
+			"title": "NPM Install",
+			"text": "step3.md"
+		}, {
+			"title": "NPM start",
+			"text": "step4.md"
+		}, {
+			"title": "View Docs",
+			"text": "step5.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Multicolour Example",
+	"description": "Example Multicolour App with Hapi server, Mongo and OAuth integration http://getmulticolour.com"
+}

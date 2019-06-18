@@ -1,0 +1,28 @@
+{
+	"backend": {
+		"imageid": "docker-golang"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Make Static Container",
+			"text": "step1.md"
+		}, {
+			"title": "Make HTTP Server Container",
+			"text": "step2.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "jessfraz/binctr",
+	"description": "Learn how to use Jess Frazelle's binctr"
+}

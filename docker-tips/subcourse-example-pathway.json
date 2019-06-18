@@ -1,0 +1,12 @@
+{
+  "title": "Collection of Docker Tips from Ben Hall",
+  "icon": "fa-docker",
+  "description": "Learn a selection of useful Docker Commands",
+  "courses": [
+    {
+      "course_id": "clean-up",
+      "title": "Docker Cleanup",
+      "description": "Learn how to clean up old Docker Images and stopped containers"
+    }
+  ]
+}

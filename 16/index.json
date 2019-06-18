@@ -1,0 +1,25 @@
+{
+	"backend": {
+		"imageid": "bash"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "",
+			"text": "step1.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Development Scenario for Embed",
+	"description": "This is an example of what could be embedded"
+}

@@ -1,0 +1,34 @@
+{
+	"backend": {
+		"imageid": "coreos"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Create Systemd Unit File",
+			"text": "step1.md"
+		}, {
+			"title": "Enable Systemd Unit File",
+			"text": "step2.md"
+		}, {
+			"title": "Start Systemd Unit File",
+			"text": "step3.md"
+		}, {
+			"title": "Check Results",
+			"text": "step4.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Start Docker Containers on Boot with Systemd",
+	"description": "Use Systemd to manage launching containers"
+}

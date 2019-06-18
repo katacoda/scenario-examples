@@ -1,0 +1,32 @@
+{
+	"backend": {
+		"imageid": "docker"
+	},
+	"files": ["App"],
+	"environment": {
+		"uilayout": "editor",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Docknet Script",
+			"text": "step1.md"
+		}, {
+			"title": "Create New Project",
+			"text": "step2.md"
+		}, {
+			"title": "Run Project",
+			"text": "step3.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Docknet - Run dotnet CLI on any Linux OS",
+	"description": "A Docker image for using the dotnet CLI and CoreRT on any Linux Distro"
+}

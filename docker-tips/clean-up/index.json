@@ -1,0 +1,26 @@
+{
+	"title": "Docker Cleanup",
+	"description": "Learn how to clean up old Docker Images and stopped containers",
+	"details": {
+		"steps": [{
+			"title": "Step 1 - Stopped Containers",
+			"text": "step1.md"
+		}, {
+			"title": "Step 2 - Old Images",
+			"text": "step2.md"
+		}],
+		"intro": {
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+	},
+	"backend": {
+		"imageid": "docker"
+	}
+}

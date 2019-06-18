@@ -1,0 +1,35 @@
+{
+	"backend": {
+		"imageid": "docker-node"
+	},
+	"files": ["App"],
+	"environment": {
+		"uilayout": "editor",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Install Mern",
+			"text": "step1.md"
+		}, {
+			"title": "Create Mern Project",
+			"text": "step2.md"
+		}, {
+			"title": "Launch",
+			"text": "step3.md"
+		}, {
+			"title": "View Mern Site",
+			"text": "step4.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Mern.io",
+	"description": "The easiest way to build isomorphic JavaScript apps using React and Redux."
+}

@@ -1,0 +1,51 @@
+{ 
+    "live": false,
+    "title": "Running Golang development environment inside Docker",
+    "description": "Learn how to run your Golang development environment inside a Docker container",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Golang Dev as Container",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2 - Build",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3 - Build Image",
+                "courseData": "stop-all.sh",
+                "text": "step3.md"
+            },
+            {
+                "title": "Step 4 - Optimised Image",
+                "courseData": "stop-all.sh",
+                "text": "step4.md"
+            },
+            {
+                "title": "Step 5 - Make",
+                "courseData": "stop-all.sh",
+                "text": "step5.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "intro-course-data.sh",
+            "credits": "This was created based on [http://blog.benhall.me.uk](http://blog.benhall.me.uk)"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "files": [
+        "app.go"
+    ],
+    "environment": {
+        "uilayout": "editor",
+        "uisettings": "makefile",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker-golang"
+    }
+}

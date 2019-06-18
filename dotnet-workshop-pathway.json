@@ -1,0 +1,129 @@
+{
+  "title": "Progressive.NET 2016 - Docker Workshop",
+  "description": "Progressive.NET 2016 - Docker Workshop",
+  "paid": false,
+  "courses": [
+    {
+      "title": "Launching Containers",
+      "description": "Learn how to launch containers using docker",
+      "course_id": "launching-containers",
+      "pathway_id": "docker",
+      "id": "1"
+    },
+    {
+      "title": "Deploying ASP.NET Core as Docker Container",
+      "description": "Learn how to deploy ASP.NET Core inside a Docker Container",
+      "course_id": "deploying-aspnet-core-as-docker-container",
+      "pathway_id": "dotnet-in-docker",
+      "id": "deploying-aspnet-core-as-docker-container"
+    },
+    {
+      "title": "Deploy ScriptCs and WebApi2 as Docker Container",
+      "description": "Learn how to deploy ASP.NET Core inside a Docker Container",
+      "course_id": "deploying-scriptcs-as-docker-container",
+      "pathway_id": "dotnet-in-docker",
+      "id": "deploying-scriptcs-as-docker-container"
+    },
+    {
+      "title": "Deploy NancyFX and Mono as Docker Container",
+      "description": "Learn how to deploy NancyFX 2.0 inside a Docker Container",
+      "course_id": "deploying-nancyfx-mono-as-docker-container",
+      "pathway_id": "dotnet-in-docker",
+      "id": "deploying-nancyfx-mono-as-docker-container"
+    },
+    {
+      "icon": "fa-fsharp",
+      "title": "Deploy F# and Suave as Docker Container",
+      "description": "Learn how to deploy Suave Web Server using F# inside a Docker Container",
+      "course_id": "deploying-fsharp-suave-as-docker-container",
+      "pathway_id": "dotnet-in-docker",
+      "id": "deploying-fsharp-suave-as-docker-container"
+    },
+    {
+      "icon": "fa-node",
+      "title": "Deploy Node.js and Express.js as Docker Container",
+      "description": "Learn how to deploy Express.js using Node.js inside a Docker Container",
+      "course_id": "deploying-nodejs-express-as-docker-container",
+      "pathway_id": "dotnet-in-docker",
+      "id": "deploying-nodejs-express-as-docker-container"
+    },
+    {
+      "title": "Creating Networks Between Containers using Links",
+      "description": "Learn how containers communicate via links",
+      "course_id": "deploying-scriptcs-as-docker-container",
+      "pathway_id": "docker",
+      "id": "5"
+    },
+    {
+      "title": "Creating Networks Between Containers using Networks",
+      "description": "Learn how containers communicate via networks",
+      "course_id": "docker-networking-intro",
+      "pathway_id": "docker",
+      "id": "networking-intro"
+    },
+    {
+      "link": "/courses/docker/persisting-data-using-volumes",
+      "title": "Persisting Data Using Volumes",
+      "description": "Learn how to persist and share data between containers using Volumes",
+      "course_id": "docker-persisting-data-using-volumes",
+      "pathway_id": "docker",
+      "id": "persisting-data-using-volumes"
+    },
+    {
+      "title": "Ensuring Uptime with Restart Policies",
+      "description": "Understand how you can use Docker to ensure your containers stay up",
+      "course_id": "docker-restart-policies",
+      "pathway_id": "docker",
+      "id": "9"
+    },
+    {
+      "title": "Orchestration using Docker Compose",
+      "description": "Learn how to use Docker Compose to orchestration multi-container applications",
+      "course_id": "orchestration-for-docker",
+      "pathway_id": "docker",
+      "id": "11"
+    },
+    {
+      "title": "Load Balancing Containers",
+      "description": "Learn how you can use NGINX to load balance containers using Service Discovery & Docker's Metadata",
+      "course_id": "load-balancing-docker-containers",
+      "pathway_id": "docker",
+      "id": "10"
+    },
+    {
+      "title": "Docker Swarm",
+      "description": "Learn how to manage clusters using Docker Swarm",
+      "course_id": "docker-swarm-intro",
+      "pathway_id": "docker",
+      "id": "swarm"
+    },
+    {
+      "title": "Deploying Weave Net",
+      "description": "In this scenario you will learn how to use Weave Net for networking",
+      "course_id": "weave-hello-net",
+      "pathway_id": "weave",
+      "id": "hello-net"
+    },
+    {
+      "title": "Deploying Weave Scope",
+      "description": "Learn about container visibility & monitoring using Scope",
+      "link": "/courses/weave/hello-scope",
+      "pathway_id": "weave",
+      "id": "hello-scope"
+    },
+    {
+      "title": "Private Docker Registry",
+      "description": "Deploy a Private Docker Registry with SSL support",
+      "course_id": "launch-private-docker-registry",
+      "pathway_id": "docker-production",
+      "id": "launch-private-registry"
+    },
+    {
+      "title": "Build Docker Images with Jenkins",
+      "description": "Learn how to use Jenkins to build Docker Images",
+      "course_id": "build-docker-images-with-jenkins",
+      "pathway_id": "jenkins",
+      "id": "build-docker-images"
+    }
+  ]
+}

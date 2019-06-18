@@ -1,0 +1,34 @@
+{
+	"backend": {
+		"imageid": "docker"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Mounting docker.sock",
+			"text": "step1.md"
+		}, {
+			"title": "Cute Kittens",
+			"text": "step2.md"
+		}, {
+			"title": "Images taking advantage of docker.sock ",
+			"text": "step3.md"
+		}, {
+			"title": "Read only access to docker.sock ",
+			"text": "step4.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Dangers of mounting docker.sock",
+	"description": "Scenario highlights the potential security problems when mounting docker.sock"
+}

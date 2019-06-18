@@ -1,0 +1,43 @@
+{
+	"title": "Docker and Makefiles",
+	"description": "Learn how to use Makefiles to manage Docker image creation",
+	"details": {
+		"steps": [{
+			"title": "Step 1 - Dockerfile",
+			"text": "step1.md",
+			"code": "step1-code.sh"
+		}, {
+			"title": "Step 2 - Makefile",
+			"text": "step2.md",
+			"answer": "step2-answer.md",
+			"verify": "step2-verify.sh"
+		}, {
+			"title": "Step 3 - Executing Make",
+			"text": "step3.md"
+		}, {
+			"title": "Step 4 - Additional Commands",
+			"text": "step4.md",
+			"answer": "step4-answer.md"
+		}, {
+			"title": "Step 5 - Setting Default Command",
+			"text": "step5.md"
+		}],
+		"intro": {
+			"text": "intro.md",
+			"courseData": "intro-course-data.sh",
+			"credits": "This was created based on [http://blog.benhall.me.uk](http://blog.benhall.me.uk)"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"files": ["Makefile"],
+	"environment": {
+		"uilayout": "editor",
+		"uisettings": "makefile",
+		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+	},
+	"backend": {
+		"imageid": "docker"
+	}
+}

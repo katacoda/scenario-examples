@@ -1,0 +1,32 @@
+{
+	"backend": {
+		"imageid": "docker"
+	},
+	"environment": {
+		"uimessage1": "\u001b[32mYour Interactive Bash Terminal\u001b[m\r\n",
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Step 1 - Old Containers",
+			"text": "step1.md"
+		}, {
+			"title": "Step 2 - Launching Container",
+			"text": "step2.md"
+		}, {
+			"title": "Step 3 - Customising Command",
+			"text": "step3.md"
+		}],
+		"intro": {
+			"courseData": "env-init.sh",
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"title": "Garbage collecting Docker images and containers",
+	"description": "Learn how to use spotify/docker-gc for Docker GC"
+}

@@ -1,0 +1,1 @@
+This scenario introduces the potential security concerns around docker.sock and what you need to be aware of when providing access to the file in containers.

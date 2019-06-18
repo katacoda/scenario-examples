@@ -1,0 +1,35 @@
+{
+  "title": "k3s - 5 less than k8s",
+  "description": "Lightweight Kubernetes",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Start Server",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - View Server Status",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Run Workloads",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credit": "Based on https://github.com/rancher/k3s"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

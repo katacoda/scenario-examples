@@ -1,0 +1,16 @@
+{
+  "embedonly": true,
+  "details": {
+    "assets": {
+      "host01": [{"file": "Dockerfile", "target": "/root/"}, {"file": "server.js", "target": "/root/"}]
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "View hello-node", "port": 8080}],
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "minikube"
+  }
+}
