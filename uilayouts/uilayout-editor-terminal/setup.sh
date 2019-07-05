@@ -1,1 +1,1 @@
-cd example/
+mkdir -p example; cd example/
