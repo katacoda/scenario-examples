@@ -16,7 +16,8 @@
         "hideintro": true,
         "hidefinish": true,
         "uilayout": "editor-terminal",
-        "uisettings": "javascript"
+        "uisettings": "javascript",
+        "uieditorpath": "/"
     },
     "backend": {
         "imageid": "node"
