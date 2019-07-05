@@ -1,1 +1,1 @@
-mkdir example; cd example/
+cd example/
