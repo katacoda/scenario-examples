@@ -17,7 +17,7 @@
         "hidefinish": true,
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/"
+        "uieditorpath": "/root/example"
     },
     "backend": {
         "imageid": "node"
