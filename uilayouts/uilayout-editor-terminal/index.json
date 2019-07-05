@@ -8,13 +8,16 @@
                 "text": "step1.md",
                 "code": "setup.sh"
             }
-        ]
+        ],
+        "intro": {
+            "text": "intro.md",
+            "credits": ""
+        }
     },
     "files": [
         "app.js", "index.js"
     ],
     "environment": {
-        "hideintro": true,
         "hidefinish": true,
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
