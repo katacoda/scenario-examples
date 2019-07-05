@@ -5,7 +5,8 @@
     "details": {
         "steps": [
             {
-                "text": "step1.md"
+                "text": "step1.md",
+                "code": "setup.sh"
             }
         ]
     },
@@ -17,7 +18,7 @@
         "hidefinish": true,
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/root/example"
+        "uieditorpath": "/home/scrapbook/tutorial/example"
     },
     "backend": {
         "imageid": "node"
