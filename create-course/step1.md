@@ -6,7 +6,7 @@ The collection of examples contains two courses, one to describe all the Katacod
 
 Clone the example repository with the command `git clone https://github.com/katacoda/scenario-examples.git katacoda-scenario-examples`{{execute}}
 
-Within the root of a repository, a course has been created called `uilayouts`. The contents of the course have been defined as `katacoda-scenario-examples/uilayouts-pathway.json`{{open}}.
+Within the root of a repository, a course has been created called `uilayouts`. The contents of the course have been defined as `scenario-examples/uilayouts-pathway.json`{{open}}.
 
 Within the JSON file, the courses element defines each scenario. For example:
 
@@ -18,4 +18,4 @@ Within the JSON file, the courses element defines each scenario. For example:
 },
 </pre>
 
-The **course_id** is the scenario name directory within the course directory. For example `ls katacoda-scenario-examples/uilayouts/uilayout-terminal`{{execute}}. The **title** and **description** are shown on the course page. 
+The **course_id** is the scenario name directory within the course directory. For example `ls katacoda-scenario-examples/uilayouts/uilayout-terminal`{{execute}}. The **title** and **description** are shown on the course page.
