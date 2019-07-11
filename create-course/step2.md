@@ -4,11 +4,11 @@ An example of this would be including the following:
 
 <pre class="file">
 {
-    "pathway_id" "environments", 
+    "pathway_id" "environment-usages",
     "course_id": "ubuntu",
     "title": "Ubuntu 16.04 Instance",
     "description": "General purpose environment"
 },
 </pre>
 
-This would reference the scenario Ubuntu from the environments course.
+This would reference the scenario Ubuntu from the environment-usages course.
