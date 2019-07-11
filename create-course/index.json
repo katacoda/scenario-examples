@@ -10,6 +10,14 @@
       {
         "title": "Step 2 - Reusing Scenarios",
         "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Using katacoda CLI to create a course",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Using katacoda CLI to add existing scenarios to a course",
+        "text": "step4.md"
       }
     ],
     "intro": {
@@ -23,6 +31,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "git"
+    "imageid": "node"
   }
 }
