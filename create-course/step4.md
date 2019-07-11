@@ -6,9 +6,12 @@ You can list your available scenarios, using this command:
 For example, can add the existing scenario, called *quiz* to the previous created course *test-course* running the following command and follow the steps:
 `katacoda courses:add:scenarios`{{execute}}
 
-The CLI will prompt you a few questions about scenario path and course path and if you want to copy or move the courses.
+The CLI will prompt you a few questions about
+Scenario path: type `./quiz`
+Course path: type `./test-course`
+And then select if you want to copy or move the scenario to the course folder.
 
-After that, you can see the scenario was added in your `test-course` opening `test-course-pathway.json`{{open}}
+After that, you can see the scenario was added in your `test-course` opening `katacoda-scenario-examples/test-course-pathway.json`{{open}}
 
 <pre class="file">
 {

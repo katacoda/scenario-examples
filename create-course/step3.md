@@ -24,7 +24,7 @@ The CLI will prompt you a few questions about:
 After that the CLI will create the pathway file and the folder.
 `ls test-course*`{{execute}}
 
-You can see the definition of the empty course in `test-course-pathway.json`{{open}}
+You can see the definition of the empty course in `katacoda-scenario-examples/test-course-pathway.json`{{open}}
 
 <pre class="file">
 {
