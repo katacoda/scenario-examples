@@ -31,6 +31,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "git"
+    "imageid": "node"
   }
 }
