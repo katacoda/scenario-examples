@@ -2,7 +2,7 @@ To help create the index.json and scenario structure, Katacoda has developed a c
 
 ## Install CLI
 
-Install the CLI with the command `npm i katacoda-cli`{{execute}}.
+Install the CLI with the command `npm i katacoda-cli --global`{{execute}}.
 
 The commands follow the syntax is
 `$ katacoda COMMAND`

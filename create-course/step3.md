@@ -1,7 +1,7 @@
 Katacoda has a command line interface which helps to create the required files of courses and scenarios, etc.
 
 You can install the CLI using the following command:
-`npm i katacoda-cli`{{execute}}
+`npm i katacoda-cli --global`{{execute}}
 
 The commands follow the syntax
 `$ katacoda COMMAND`
