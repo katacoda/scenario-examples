@@ -9,17 +9,26 @@ The commands follow the syntax
 If you need help, to see the available commands, you can run
 `katacoda --help`{{execute}}
 
-To create a course, for example, called `testCourse`, you can run the following command:
-`katacoda courses:create`{{execute}}
+To create a course, for example, called *test-course*, you can run the following command and follow the steps:
 
-The CLI will prompt you a few questions about title, description, and friendly-url, and after that will create the pathway file and the folder.
-`ls testCourse*`{{execute}}
+```
+cd katacoda-scenario-examples
+katacoda courses:create
+```{{execute}}
 
-You can see the definition of the empty course in `testCourse-pathway.json`{{open}}
+The CLI will prompt you a few questions about:
+- **Title:** title of the course, displayed on the intro screen
+- **Description:** description of the course, displayed on the intro screen
+- **Friendly-url:** here you will type `test-course`. This attribute will determine the name of the folder of your course, and the URL to access it, so, should not contain spaces, should be lower case, etc. For example, if your username is *test-username* and your course was called *test-course* the URL to point the course in the platform will be https://katacoda.com/test-username/courses/test-course/
+
+After that the CLI will create the pathway file and the folder.
+`ls test-course*`{{execute}}
+
+You can see the definition of the empty course in `test-course-pathway.json`{{open}}
 
 <pre class="file">
 {
-  "title": "testCourse",
+  "title": "test-course",
   "description": "Example course",
   "courses": []
 }
