@@ -81,6 +81,11 @@
         "title": "Displaying Images",
         "description": "Display images as part of the scenario",
         "id": "displaying-images"
+      },
+      {
+        "title": "Credit where credit due",
+        "description": "Possible ways to provide credit for the content or ideas within the scenario",
+        "id": "credit-where-credit-due"
       }
     ]
   }
