@@ -1,6 +1,6 @@
 FROM node:12.6-alpine
 
 RUN apk add --update --no-cache bash make
-RUN npm install npm install katacoda-cli -g
+RUN npm install katacoda-cli -g
 
 WORKDIR /app
