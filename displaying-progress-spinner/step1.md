@@ -9,4 +9,4 @@ The result is the user knows that actions are being performed and won't attempt 
 The following will output the wait script in a second terminal.
 `cat /usr/local/bin/wait.sh`{{execute T2}}
 
-The full script can be found on Github at https://github.com/katacoda/scenario-examples/displaying-progress-spinner/
+The full script can be found on Github at https://github.com/katacoda/scenario-examples/tree/master/displaying-progress-spinner
