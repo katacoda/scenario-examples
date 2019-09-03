@@ -9,6 +9,11 @@
         "description": "General purpose environment"
       },
       {
+        "course_id": "vscode-with-docker",
+        "title": "VSCode plus Ubuntu 16.04",
+        "description": "Example of adding a VS Code tab to a scenario"
+      },
+      {
         "course_id": "docker",
         "title": "Docker",
         "description": "General purpose Docker environment"
