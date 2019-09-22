@@ -28,6 +28,11 @@
         "id": "markdown-extensions"
       },
       {
+        "title": "Katacoda Placeholders for IP addresses and URLs",
+        "description": "Use Placeholders to dynamically replace values within your scenario content",
+        "id": "placeholders"
+      },
+      {
         "title": "Clipboard Integration",
         "description": "Understand how the Katacoda Clipboard integration",
         "id": "clipboard"
