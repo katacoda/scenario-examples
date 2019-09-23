@@ -25,6 +25,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "bash-cluster2"
+    "imageid": "docker-swarm"
   }
 }
