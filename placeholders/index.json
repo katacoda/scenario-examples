@@ -25,6 +25,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "bash-cluster"
+    "imageid": "bash-cluster2"
   }
 }
