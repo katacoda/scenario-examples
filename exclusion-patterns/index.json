@@ -1,0 +1,26 @@
+{
+    "id": "exclusion-patterns",
+    "title": "Exclusion patterns",
+    "description": "Exclude files or directories of your scenario",
+    "details": {
+        "steps": [
+            {
+                "title": "Exclusion patterns",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "files": [
+        "poc.sh"
+    ],
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "editor-terminal-v1",
+        "uisettings": "bash",
+        "exclusionPatterns": ["*test", "./test/*", "./logs"]
+    },
+    "backend": {
+        "imageid": "node"
+    }
+}
