@@ -1,7 +1,7 @@
 {
     "id": "custom-events",
-    "title": "Custom events",
-    "description": "Exclude files or directories of your scenario",
+    "title": "Raise Custom Events From Environments",
+    "description": "Raise events from the user environment to Katacoda",
     "details": {
         "intro": {
           "text": "intro.md",
