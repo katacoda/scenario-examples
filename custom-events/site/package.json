@@ -1,0 +1,18 @@
+{
+  "name": "new-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp default"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.1.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

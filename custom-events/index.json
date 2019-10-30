@@ -1,0 +1,36 @@
+{
+    "id": "custom-events",
+    "title": "Custom events",
+    "description": "Exclude files or directories of your scenario",
+    "details": {
+        "intro": {
+          "text": "intro.md",
+          "code": "env-init.sh",
+          "credits": ""
+        },
+        "steps": [
+            {
+                "title": "Custom events",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "asyncFiles": ["index.html"],
+    "environment": {
+        "hidefinish": true,
+        "showdashboard": true,
+        "delayToSaveFileAfterStopTypingMilliseconds": 2000,
+        "dashboards": [
+          {"name": "Web Application", "port": 3000}
+        ],
+        "uilayout": "editor-iframe-split",
+        "uisettings": "html"
+    },
+    "backend": {
+      "imageid": "node",
+      "port": 3000
+    },
+    "events": {
+      "hideprogressbar": "reload-finished"
+    }
+}
