@@ -28,6 +28,11 @@
         "id": "markdown-extensions"
       },
       {
+        "title": "Katacoda Placeholders for IP addresses and URLs",
+        "description": "Use Placeholders to dynamically replace values within your scenario content",
+        "id": "placeholders"
+      },
+      {
         "title": "Clipboard Integration",
         "description": "Understand how the Katacoda Clipboard integration",
         "id": "clipboard"
@@ -81,6 +86,11 @@
         "title": "Displaying Images",
         "description": "Display images as part of the scenario",
         "id": "displaying-images"
+      },
+      {
+        "title": "Credit where credit due",
+        "description": "Possible ways to provide credit for the content or ideas within the scenario",
+        "id": "credit-where-credit-due"
       }
     ]
   }

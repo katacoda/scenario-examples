@@ -1,0 +1,27 @@
+{
+  "title": "Credit where credit due",
+  "description": "Possible ways to provide credit for the content or ideas within the scenario",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "Here we can provide **credit** to others such as a link to a https://github.com repo"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}

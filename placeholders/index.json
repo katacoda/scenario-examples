@@ -1,0 +1,32 @@
+{
+  "title": "Using Katacoda Placeholders for dynamic content",
+  "description": "Learn how to get the IP address and URL parts for the environment",
+  "difficulty": "Beginner",
+  "time": "10",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - IP Addresses",
+        "code": "foreground1.sh",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - URLs",
+        "code": "foreground2.sh",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker-swarm"
+  }
+}

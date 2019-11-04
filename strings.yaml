@@ -1,0 +1,13 @@
+# Override the strings in the UI
+continue: "Continue"
+start_scenario: "Start Scenario"
+welcome: "Welcome"
+difficulty: "Difficuly"
+time: "Time"
+steps: "Steps"
+step: "Step"
+of: "of"
+answer: "Answer"
+solution: "Solution"
+show: "Show"
+terminal: "Terminal"

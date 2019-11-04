@@ -1,6 +1,6 @@
 {
-  "title": "Minikube",
-  "description": "Use Minikube to help explain Kubernetes",
+  "title": "VSCode plus Ubuntu",
+  "description": "Example of adding a VS Code tab to a scenario",
   "details": {
     "steps": [
       {
@@ -13,10 +13,14 @@
     }
   },
   "environment": {
+    "showide": true,
+    "ide": "ssh host01 '/opt/start-vscode.sh'",
+    "idePort": 23000,
+
     "hideintro": true,
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "minikube"
+    "imageid": "ubuntu"
   }
 }

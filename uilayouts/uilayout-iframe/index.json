@@ -16,6 +16,7 @@
         "uilayout": "iframe"
     },
     "backend": {
+        "imageid": "bash",
         "url": "https://httpbin.org"
     }
 }
