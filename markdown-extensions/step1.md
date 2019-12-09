@@ -10,6 +10,30 @@ Markdown:
 Results:
 `echo "Copy to Clipboard"`{{copy}}
 
+## Multi-Line Copy to Clipboard
+
+The same functionality as above is available over multiple lines.
+
+Markdown: 
+<pre>
+```
+echo "Line 1"
+
+echo "Line 2"
+
+echo "Line 3"
+```{{copy}}
+</pre>
+
+Results:
+```
+echo "Line 1"
+
+echo "Line 2"
+
+echo "Line 3"
+```{{copy}}
+
 ## Execute in Terminal
 
 Katacoda has integration to automatically execute the commands for the terminal.
@@ -19,6 +43,30 @@ This is done by adding `execute` to the markdown code block, for example:
 
 This creates:
 `echo "Run in Terminal"`{{execute}}
+
+## Mulit-Line Execute in Terminal
+
+The same functionality as above is available over multiple lines.
+
+<pre>
+```
+echo "Line 1"
+
+echo "Line 2"
+
+echo "Line 3"
+```{{execute}}
+
+</pre>
+
+This creates:
+```
+echo "Line 1"
+
+echo "Line 2"
+
+echo "Line 3"
+```{{execute}}
 
 ## Interrupt
 
