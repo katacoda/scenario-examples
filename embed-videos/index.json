@@ -1,0 +1,26 @@
+{
+  "title": "Embed Videos into Scenarios",
+  "description": "Learn how to embed YouTube videos into a scenario",
+  "difficulty": "Beginner",
+  "time": "10",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}
