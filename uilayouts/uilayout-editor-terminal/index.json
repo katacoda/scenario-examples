@@ -25,6 +25,6 @@
         "uieditorpath": "/home/scrapbook/tutorial/example"
     },
     "backend": {
-        "imageid": "node"
+        "imageid": "ubuntu"
     }
 }
