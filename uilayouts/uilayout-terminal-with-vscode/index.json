@@ -20,6 +20,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "imageid": "node"
+        "imageid": "ubuntu"
     }
 }
