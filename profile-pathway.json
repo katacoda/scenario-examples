@@ -91,7 +91,11 @@
         "title": "Credit where credit due",
         "description": "Possible ways to provide credit for the content or ideas within the scenario",
         "id": "credit-where-credit-due"
+      },
+      {
+        "title": "Writing files",
+        "description": "How to write a file in your scenario",
+        "id": "writing-files"
       }
     ]
   }
-  
