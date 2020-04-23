@@ -1,0 +1,20 @@
+{
+    "noindex": true,
+    "title": "Writing files",
+    "description": "How to write a file in your scenario",
+    "details": {
+        "steps": [
+            {
+                "title": "How to write a file in your scenario",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
