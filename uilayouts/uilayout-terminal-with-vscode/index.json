@@ -1,0 +1,25 @@
+{
+    "noindex": true,
+    "title": "Scenario with Terminal and VS code UI",
+    "description": "Katacoda Scenario Example",
+    "details": {
+        "steps": [
+            {
+                "title": "",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "files": [
+        "app.js", "index.js"
+    ],
+    "environment": {
+        "uieditorpath": "/root/example",
+        "showide": true,
+        "idePort": 23000,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}

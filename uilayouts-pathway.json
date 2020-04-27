@@ -9,6 +9,12 @@
         "description": "Katacoda Scenario Example"
       },
       {
+        "title": "Scenario with Terminal and VS Code UI",
+        "description": "",
+        "pathway_id": "scenario-examples",
+        "course_id": "uilayout-terminal-with-vscode"
+      },
+      {
         "course_id": "uilayout-editor-terminal",
         "title": "Scenario with Editor Terminal UI",
         "description": "Katacoda Scenario Example"

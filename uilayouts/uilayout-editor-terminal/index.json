@@ -19,6 +19,7 @@
     ],
     "environment": {
         "hidefinish": true,
+        "hideHiddenFiles": true,
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
         "uieditorpath": "/home/scrapbook/tutorial/example"

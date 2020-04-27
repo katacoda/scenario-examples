@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "title": "Get the IP or DNS name for the environment",
+  "description": "Learn how to get the IP address or DNS name for configuration scripts",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md",
+        "code": "foreground.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
