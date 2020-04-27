@@ -101,6 +101,11 @@
         "title": "Writing files",
         "description": "How to write a file in your scenario",
         "id": "writing-files"
-      }
+      },
+      {
+        "title": "Exclusion patterns",
+        "description": "Exclude files or directories of your scenario",
+        "id": "exclusion-patterns"
+      },
     ]
   }
