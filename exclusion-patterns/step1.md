@@ -28,3 +28,12 @@ This is accomplished using the property `exclusionPatterns` in the definition of
       "exclusionPatterns": ["*test", "./test/*", "./logs"]
   }
 </pre>
+
+Also, we can exclude the hidden files, setting the property `hideHiddenFiles` in true
+
+<pre class="file">
+  "environment": {
+      ...
+      "hideHiddenFiles": true,
+  }
+</pre>
