@@ -1,4 +1,4 @@
-The Katacoda `editor-terminal` UI Layout combines an Editor with a Terminal. When changes are made to files using the editor, they are automatically sync'ed to the user's home directory. 
+The Katacoda `editor-terminal` UI Layout combines an Editor with a Terminal. When changes are made to files using the editor, they are automatically sync'ed to the user's home directory.
 
 # Index.json
 
@@ -10,7 +10,7 @@ It's possible to pre-open a set of files by defining a `files` array in the root
 ]
 </pre>
 
-The syntax for the editor is automatically inferred from the file extension. This can be enforced by including a "uisettings" 
+The syntax for the editor is automatically inferred from the file extension. This can be enforced by including a "uisettings"
 
 <pre>
 "environment": {
@@ -70,6 +70,22 @@ Within the Markdown, include:
 &#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;index.js&#x22; data-target=&#x22;replace&#x22;&#x3E;console.log(&#x22;Index.js here...&#x22;)
 &#x3C;/pre&#x3E;
 </pre>
+
+Using the `data-target="insert"` attribute you can instruct the editor to insert the text in a particular position marked by `data-marker` attribute.
+
+<pre class="file" data-filename="app.js" data-target="append">#TODO-insert
+</pre>
+
+<pre>
+&#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;app.js&#x22; data-target=&#x22;insert&#x22; data-marker=&#x22;#TODO-insert&#x22;&#x3E;
+console.log(&#x22;Inserted value using the data-marker attribute...&#x22;)
+&#x3C;/pre&#x3E;
+</pre>
+
+<pre class="file" data-filename="app.js" data-target="insert" data-marker="#TODO-insert">
+console.log("Inserted value using the data-marker attribute...")
+</pre>
+
 
 ## New Files
 
