@@ -76,6 +76,46 @@ When the user has long running commands, such as a watch, it can be useful to en
 
 `echo "Send Ctrl+C before running Terminal"`{{execute interrupt}}
 
+## Interrupt
+
+When the user has long running commands, such as `top`{{execute}}, it can be useful to ensure that this is stopped but the user runs the next command. 
+
+<pre>`echo "Send Ctrl+C before running Terminal"`{{execute interrupt}}</pre>
+
+`echo "Send Ctrl+C before running Terminal"`{{execute interrupt}}
+
+## Control Sequences
+
+Alongside the interrupt command above, certain Control Sequences can be sent.
+
+Given a long running command, like `top`{{execute}}. It can be stopped using <kbd>Ctrl</kbd>+<kbd>C</kbd>. This can be executed as a control sequence with the command `^C`{{execute ctrl-seq}}
+
+The markdown for this is:
+<pre>
+`^C`{{execute ctrl-seq}}
+</pre>
+
+The use of control sequences can be useful when teaching applications such as `vim`{{execute}}.
+
+The instructions can guide the user on how  
+
+* Switch to insert mode by typing `i`{{execute no-newline}}
+
+* Once finished, press ESC (`^ESC`{{execute ctrl-seq}}) to switch back to normal mode
+
+* To exit, type `:q!`{{execute}}
+
+In the markdown, you would include:
+<pre>
+`i`{{execute no-newline}}
+
+`^ESC`{{execute ctrl-seq}}
+
+`:q!`{{execute}}
+</pre>
+
+Notice the use of `no-newline` as a way to send a keystroke with a carriage return following it.
+
 ## Keyboard Icons
 
 This can also be helped by using Keyboard symbols to show users to use <kbd>Ctrl</kbd>+<kbd>C</kbd>
@@ -84,6 +124,7 @@ The Markdown is:
 <pre>
 &#x3C;kbd&#x3E;Ctrl&#x3C;/kbd&#x3E;+&#x3C;kbd&#x3E;C&#x3C;/kbd&#x3E;
 </pre>
+
 
 ## Execute on different hosts 
 
