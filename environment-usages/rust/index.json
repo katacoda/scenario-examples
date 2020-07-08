@@ -17,6 +17,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "rust.1.44.1"
+    "imageid": "rust:1.44.1"
   }
 }
