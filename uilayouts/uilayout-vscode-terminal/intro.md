@@ -1,1 +1,1 @@
-When the scenario starts, additional commands can be executed in the foreground or background.
+Example using the VS Code / Terminal Split screen terminal layout
