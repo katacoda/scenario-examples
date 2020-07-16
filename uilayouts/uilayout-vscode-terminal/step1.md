@@ -6,7 +6,7 @@ The syntax for the editor is automatically inferred from the file extension. Thi
 
 <pre>
 "environment": {
-    "uilayout": "vscode-terminal"
+    "uilayout": "vscode-terminal-split"
 },
 </pre>
 

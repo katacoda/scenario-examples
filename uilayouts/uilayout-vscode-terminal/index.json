@@ -15,7 +15,7 @@
     },
     "environment": {
         "hidefinish": true,
-        "uilayout": "vscode-terminal"
+        "uilayout": "vscode-terminal-split"
     },
     "backend": {
         "imageid": "nodejs:12"
