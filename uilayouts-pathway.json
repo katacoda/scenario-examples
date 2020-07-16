@@ -9,10 +9,15 @@
         "description": "Katacoda Scenario Example"
       },
       {
-        "title": "Scenario with Terminal and VS Code UI",
+        "title": "Scenario with Terminal and VS Code UI as Tab",
         "description": "",
         "pathway_id": "scenario-examples",
         "course_id": "uilayout-terminal-with-vscode"
+      },
+      {
+        "course_id": "uilayout-vscode-terminal",
+        "title": "Scenario with VS Code / Terminal UI Split Screen",
+        "description": "Katacoda Scenario Example"
       },
       {
         "course_id": "uilayout-editor-terminal",

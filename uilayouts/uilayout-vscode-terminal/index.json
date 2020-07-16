@@ -1,0 +1,23 @@
+{
+    "noindex": true,
+    "title": "Scenario with VS Code / Terminal UI Split Screen",
+    "description": "Katacoda Scenario Example",
+    "details": {
+        "steps": [
+            {
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "credits": ""
+        }
+    },
+    "environment": {
+        "hidefinish": true,
+        "uilayout": "vscode-terminal"
+    },
+    "backend": {
+        "imageid": "nodejs:12"
+    }
+}
