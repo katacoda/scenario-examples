@@ -1,6 +1,16 @@
-The Katacoda `terminal` UI Layout provides a full Terminal experience.
+The Katacoda `terminal` layout provides a full Terminal experience. This can be extended to include a full IDE experience as a separate tab by including `showide` within the `environment` section of the `index.json`. For example:
 
-`newFile.js`{{open}}
+```
+"environment": {
+  "showide": true
+}
+```
+
+## IDE Functionality
+
+With the IDE, you can open files certain files from Markdown - `newFile.js`{{open}}
+
+You can copy, extend or replace text from UI helpers.
 
 <pre class="file" data-filename="app.js" data-target="replace">var http = require('http');
 var requestListener = function (req, res) {
