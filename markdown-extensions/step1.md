@@ -44,7 +44,7 @@ This is done by adding `execute` to the markdown code block, for example:
 This creates:
 `echo "Run in Terminal"`{{execute}}
 
-## Mulit-Line Execute in Terminal
+## Multi-Line Execute in Terminal
 
 The same functionality as above is available over multiple lines.
 
