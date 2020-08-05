@@ -2,8 +2,7 @@
   "title": "Kubernetes",
   "description": "Multi node Kubernetes cluster configured using Kubeadm",
   "details": {
-    "steps": [
-      {
+    "steps": [{
         "title": "Step 1",
         "text": "step1.md"
       },
@@ -21,6 +20,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster:1.18"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
