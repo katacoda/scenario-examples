@@ -1,1 +1,0 @@
-`kubeadm join`{{execute HOST2}}

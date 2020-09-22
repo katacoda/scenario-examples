@@ -1,4 +1,4 @@
-Start using the Multi-node Kubernetes environment for your content by setting the `imageid` to `kubernetes-cluster`.
+Start using the Multi-node Kubernetes environment for your content by setting the `imageid` to `kubernetes-cluster-running:1.18`.
 
 For example:
 
@@ -7,6 +7,6 @@ For example:
   "uilayout": "terminal"
 },
 "backend": {
-  "imageid": "kubernetes-cluster"
+  "imageid": "kubernetes-cluster-running:1.18"
 }
 </pre>
