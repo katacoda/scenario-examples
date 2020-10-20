@@ -9,13 +9,14 @@ you set in the `index.json` file for your scenario.
 
 <pre>
 "environment": {
+  "uilayout": "editor-terminal",
   "uieditorpath": "/root/example"
 }
 </pre>
 
-This will default to the home directory.
+If not specified, the `uieditorpath` will default to the `/root` directory.
 
-It's possible to pre-open a set of files by defining a `files` array in the root
+You can pre-open a set of files in the editor by defining a `files` array in the root
 of the `index.json` file.
 
 <pre>
@@ -24,25 +25,28 @@ of the `index.json` file.
 ]
 </pre>
 
+Files open in the editor window are updated as you make changes in the editor.
 If the files do not already exist, the tabs will still open for them, but they
-will not be created when they are updated in the editor window.
+will not be created until you have updated the content in the editor window.
 
-The path for these filenames, and for all editor file commands is relative to the
-`uieditorpath`.
+You can include a path with these filenames. Paths should be given
+relative to the `uieditorpath`. Only files under that path will be
+diplayed in the editor's directory tree.
 
-The syntax for the editor is automatically inferred from the file extension.
-This can be enforced by including a "uisettings"
+The syntax highlighting for the editor is automatically inferred from the file
+extension. This can be enforced by adding a `uisettings` to your environment.
 
 <pre>
 "environment": {
     "uilayout": "editor-terminal",
+    "uieditorpath": "/root/example",
     "uisettings": "javascript"
 },
 </pre>
 
 # Helper Functionality
 
-To support users, Katacoda has integrated various features to help users.
+You can replace, prepend, append, and insert text into an open editor file.
 
 Copy file to editor:
 
@@ -107,8 +111,10 @@ console.log(&#x22;Inserted value using the data-marker attribute...&#x22;)
 console.log("Inserted value using the data-marker attribute...")
 </pre>
 
-
 ## New Files
+
+Added files in the `uieditorpath` will automatically be added to the tree in the
+editor. A markdown extension also makes it easy to open new files in the editor.
 
 Create a new file via the CLI:
 `touch newFile.js`{{execute}}
