@@ -1,8 +1,22 @@
-The Katacoda `editor-terminal` UI Layout combines an Editor with a Terminal. When changes are made to files using the editor, they are automatically sync'ed to the user's home directory.
+The Katacoda `editor-terminal` UI Layout combines an Editor with a Terminal.
+When changes are made to files using the editor, they are automatically sync'ed
+to the user's home directory.
 
 # Index.json
 
-It's possible to pre-open a set of files by defining a `files` array in the root of the `index.json` file.
+The editor will display and interact with files relative to the `uieditorpath`
+you set in the `index.json` file for your scenario.
+
+<pre>
+"environment": {
+  "uieditorpath": "/root/example"
+}
+</pre>
+
+This will default to the home directory.
+
+It's possible to pre-open a set of files by defining a `files` array in the root
+of the `index.json` file.
 
 <pre>
 "files": [
@@ -10,7 +24,14 @@ It's possible to pre-open a set of files by defining a `files` array in the root
 ]
 </pre>
 
-The syntax for the editor is automatically inferred from the file extension. This can be enforced by including a "uisettings"
+If the files do not already exist, the tabs will still open for them, but they
+will not be created when they are updated in the editor window.
+
+The path for these filenames, and for all editor file commands is relative to the
+`uieditorpath`.
+
+The syntax for the editor is automatically inferred from the file extension.
+This can be enforced by including a "uisettings"
 
 <pre>
 "environment": {
