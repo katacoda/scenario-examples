@@ -25,6 +25,6 @@
         "uieditorpath": "/root/example"
     },
     "backend": {
-        "imageid": "node"
+        "imageid": "nodejs:12"
     }
 }

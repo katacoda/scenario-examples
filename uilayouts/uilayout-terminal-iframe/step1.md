@@ -10,7 +10,7 @@ Example:
     "uilayout": "terminal-iframe"
 },
 "backend": {
-    "imageid": "node",
+    "imageid": "nodejs:12",
     "port": 3000
 }
 </pre>

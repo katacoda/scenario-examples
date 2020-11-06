@@ -27,7 +27,7 @@
         "uisettings": "html"
     },
     "backend": {
-      "imageid": "node",
+      "imageid": "nodejs:12",
       "port": 3000
     },
     "events": {

@@ -9,7 +9,7 @@ Example:
     "uilayout": "terminal-iframe-split"
 },
 "backend": {
-    "imageid": "docker",
+    "imageid": "ubuntu",
     "port": 80
 }
 </pre>
