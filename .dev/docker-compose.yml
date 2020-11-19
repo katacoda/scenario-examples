@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  dev:
-    build: 
-      context: .
-    volumes:
-      - ..:/app/
