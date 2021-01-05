@@ -1,0 +1,23 @@
+{
+  "title": "Python 3.8 Environment",
+  "description": "",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "foreground": "foreground.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
