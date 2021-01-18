@@ -9,6 +9,11 @@
         "title": "Katacoda Environments",
         "description": "Example of selective available Katacoda Environments. More examples coming soon!",
         "id": "environment-usages"
+      },
+      {
+        "title": "Katacoda Challenges",
+        "description": "Examples of how to create Challenges on Katacoda",
+        "id": "challenges"
       }
     ],
     "scenarios": [

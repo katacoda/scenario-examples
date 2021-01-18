@@ -1,0 +1,30 @@
+{
+  "type": "challenge@0.4",
+  "title": "Challenge Example - Kubernetes",
+  "description": "",
+  "difficulty": "Advance",
+  "time": "60 minutes",
+  "details": {
+    "steps": [ ],
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh",
+      "courseData": "configure.sh"
+    },
+    "assets": {
+      "host01": [
+          {"file": "challenge.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "cheat", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "deploy.yaml", "target": "/opt/"}
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "showide": true,
+    "hidesidebar": true
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

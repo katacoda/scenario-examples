@@ -1,0 +1,38 @@
+{
+  "type": "challenge@0.4",
+  "title": "Challenge Example - Node.js",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "challenge.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "cheat",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "hidesidebar": true,
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}
