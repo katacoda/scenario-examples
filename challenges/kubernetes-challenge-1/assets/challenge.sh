@@ -24,13 +24,13 @@ function kc_start_tasks()
       "The vulnerable application is running on node01:30080\n" \
       "Use cURL to make requests to the application\n" 
 
-  kc_task 1 \
+  kc_task \
       "Task 1: Write the environment variables from the application environment to a file called \`/root/app-env\`" \
       "Well Done! Anything interesting listed? What about infrastructure settings? It proves that the application is running on Kubernetes." \
       "grep app-env -ie 'kubernetes'" \
       hint1
 
-  kc_task 2 \
+  kc_task \
       "Task 2: Save the source code of the application's \`app.js\` to \`/root/app.js\`" \
       "Good job! We now have their application code." \
       "grep /root/app.js -ie 'katacoda'"
@@ -40,5 +40,3 @@ function kc_start_tasks()
   echo
   echo "Try being on the Blue Team to lock down the application at https://katacoda.com/"
 }
-
-start_challenge
