@@ -1,1 +1,1 @@
-sleep 1; /usr/local/bin/wait.sh
+while [ ! -f /usr/local/bin/wait.sh ]; do sleep 1; done; /usr/local/bin/wait.sh
