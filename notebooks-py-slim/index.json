@@ -1,0 +1,6 @@
+{
+  "type": "jupyter@0.1",
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
