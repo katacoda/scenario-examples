@@ -6,6 +6,9 @@
       {
         "text": "step1.md",
         "code": "foreground.sh"
+      },
+      {
+        "text": "step2.md"
       }
     ],
     "intro": {
