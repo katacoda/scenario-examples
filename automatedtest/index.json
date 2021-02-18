@@ -1,0 +1,27 @@
+{
+  "title": "Automated Test Example",
+  "description": "Example of using Cypress to test a Katacoda scenario",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md",
+        "code": "foreground.sh"
+      },
+      {
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
