@@ -17,6 +17,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "bash1804"
   }
 }
