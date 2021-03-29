@@ -2,7 +2,7 @@ This is an example scenario that will be tested using the Cypress integration.
 
 ## IP Address
 
-`echo [[HOST_IP]]`{{execute}}
+`echo [[HOST_IP]]`{{execute test-echoIP}}
 
 ## URL
 

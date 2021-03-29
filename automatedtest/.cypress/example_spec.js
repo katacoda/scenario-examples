@@ -8,9 +8,9 @@ describe('My First Test', () => {
   });
 
   it('can run a command', () => {
-    cy.terminalType("uname");
+    cy.terminalType("uptime");
 
-    cy.terminalShouldContain('Linux');
+    cy.terminalShouldContain('load average');
   });
 
   it('can verify contents of a step', () => {
@@ -25,5 +25,13 @@ describe('My First Test', () => {
     cy.stepShouldBeVisible(2);
 
     cy.stepHasText('This will be the second step.');
+  });
+
+  it('can run execute snippets based on name', () => {
+    cy.goToStep(2);
+
+    cy.get('code.execute.test-uname').click();
+
+    cy.terminalShouldContain('Linux');
   });
 })
