@@ -28,7 +28,8 @@ describe('My First Test', () => {
   });
 
   it('can run execute snippets based on name', () => {
-    cy.goToStep(2);
+    // TODO: The goToStep should be able to ignore being asked to move to the same step. At the moment this test depends on the above.
+    // cy.goToStep(2);
 
     cy.get('code.execute.test-uname').click();
 
