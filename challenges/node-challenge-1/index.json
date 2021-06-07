@@ -1,13 +1,19 @@
 {
-  "type": "challenge@0.6",
+  "type": "challenge@0.7",
   "title": "Challenge Example - Node.js",
   "description": "",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
+    "steps": [
+      {
+        "title": "Task 1 - Fix Tests",
+        "text": "1_task.md",
+        "verify": "1_verify.sh"
+      }
+    ],
     "intro": {
       "text": "intro.md",
-      "foreground": "foreground.sh",
       "background": "background.sh"
     },
     "finish": {
@@ -15,11 +21,6 @@
     },
     "assets": {
       "client": [
-        {
-          "file": "challenge.sh",
-          "target": "/usr/local/bin/",
-          "chmod": "+x"
-        },
         {
           "file": "cheat",
           "target": "/usr/local/bin/",

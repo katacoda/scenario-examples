@@ -1,11 +1,23 @@
 {
-  "type": "challenge@0.6",
+  "type": "challenge@0.7",
   "title": "Challenge Example - Kubernetes",
   "description": "",
   "difficulty": "Advance",
   "time": "60 minutes",
   "details": {
-    "steps": [ ],
+    "steps": [
+      {
+        "title": "Task 1 - Output env",
+        "text": "1_task.md",
+        "verify": "1_verify.sh",
+        "hint": "1_hint.sh"
+      },
+      {
+        "title": "Task 2 - Extract app.js",
+        "text": "2_task.md",
+        "verify": "2_verify.sh"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "code": "foreground.sh",
@@ -13,7 +25,6 @@
     },
     "assets": {
       "host01": [
-          {"file": "challenge.sh", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "cheat", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "deploy.yaml", "target": "/opt/"}
       ]

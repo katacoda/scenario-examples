@@ -1,0 +1,1 @@
+grep app-env -ie 'kubernetes'
