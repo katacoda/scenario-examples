@@ -26,6 +26,7 @@
     "assets": {
       "host01": [
           {"file": "cheat", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "cheat2", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "deploy.yaml", "target": "/opt/"}
       ]
     }
