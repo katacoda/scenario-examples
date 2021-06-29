@@ -1,0 +1,23 @@
+{
+  "title": "Visual Studio Code - Install extensions",
+  "description": "Install extensions",
+  "details": {
+    "steps": [
+      {
+        "title": "😺",
+        "courseData": "setup.sh",
+        "code": "foreground.sh",
+        "text": "step1.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uieditorpath": "/root/example",
+    "showide": true,
+    "ide": "ssh host01 '/opt/start-vscode.sh /root/example'"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
