@@ -111,6 +111,11 @@
         "title": "Exclusion patterns",
         "description": "Exclude files or directories of your scenario",
         "id": "exclusion-patterns"
+      },
+      {
+        "title": "Visual Studio Code - Install extensions",
+        "description": "Install VS Code extensions using background scripts",
+        "id": "vscode-extensions"
       }
     ]
   }
