@@ -12,6 +12,7 @@
     ]
   },
   "environment": {
+    "hideintro": true,
     "uilayout": "terminal",
     "uieditorpath": "/root/example",
     "showide": true,
