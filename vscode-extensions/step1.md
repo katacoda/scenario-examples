@@ -8,4 +8,4 @@ mv extension /opt/.katacodacode/extensions/humao.rest-client-0.24.3
 
 The name of the directory for the extension should use the same pattern that when the extension is installed manually `<publisher>.<name>-<releaseversion>`.
 
-See the [source code](https://github.com/katacoda/scenario-examples/tree/master/vscode-extensions) of this example.
+See the [source code](https://github.com/katacoda/scenario-examples/tree/main/vscode-extensions) of this example.
