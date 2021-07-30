@@ -2,6 +2,11 @@
   "title": "Challenges Examples",
   "description": "Examples of how to create Challenges on Katacoda",
   "courses": [{
+      "course_id": "skills-challenge-template",
+      "title": "Skills Challenge Template",
+      "description": "Basic template for a skills challenge"
+    },
+    {
       "course_id": "node-challenge-1",
       "title": "Challenge Example -  Node.js",
       "description": "How to create a challenge on using Node.js"
