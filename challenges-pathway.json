@@ -2,7 +2,7 @@
   "title": "Challenges Examples",
   "description": "Examples of how to create Challenges on Katacoda",
   "courses": [{
-      "course_id": "skills-challenge-template",
+      "course_id": "challenge-hello-world",
       "title": "Skills Challenge Template",
       "description": "Basic template for a skills challenge"
     },
