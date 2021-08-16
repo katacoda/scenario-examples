@@ -17,6 +17,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "rlang:3.4"
+    "imageid": "rlang:3.6.3"
   }
 }
