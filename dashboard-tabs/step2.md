@@ -12,7 +12,7 @@ The `index.json` supports the following syntax that allows you to define an addi
 
 ## Automatically Run Commands
 
-These tabs can automatically run certain commands to help the user understand what is happening. The command below will open a new Terminal tab and automatically run `docker stats` command. 
+These tabs can automatically run certain commands to help the user understand what is happening. The command below will open a new Terminal tab and automatically run `docker stats` command.
 
 <pre>
 "environment": {
@@ -20,4 +20,4 @@ These tabs can automatically run certain commands to help the user understand wh
 }
 </pre>
 
-The can be used for tasks such as watching a event stream, or viewing all the processes running on a system.
+The can be used for tasks such as watching an event stream, or viewing all the processes running on a system.

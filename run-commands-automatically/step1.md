@@ -1,6 +1,6 @@
 Commands can be run automatically in the foreground and background when a scenario starts and when a step loads.
 
-The `index.json` file contains the scenario structure. 
+The `index.json` file contains the scenario structure.
 
 Within the `intro` block and for each step, two files can be defined under `courseData` and `code`.
 

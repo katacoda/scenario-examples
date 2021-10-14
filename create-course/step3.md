@@ -1,17 +1,20 @@
-Katacoda has a command line interface which helps to create the required files of courses and scenarios, etc.
+Katacoda has a command line interface that helps to create the required files of courses and scenarios, etc.
 
 You can install the CLI using the following command:
+
 `npm i katacoda-cli --global`{{execute}}
 
-The commands follow the syntax
+The commands follow the syntax:
+
 `$ katacoda COMMAND`
 
-If you need help, to see the available commands, you can run
+If you need help, to see the available commands, you can run:
+
 `katacoda --help`{{execute}}
 
 To create a course, for example, called *test-course*, you can run the following command and follow the steps:
 
-```
+```sh
 cd katacoda-scenario-examples
 katacoda courses:create
 ```{{execute}}

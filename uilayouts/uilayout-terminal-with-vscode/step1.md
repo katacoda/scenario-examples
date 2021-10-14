@@ -1,6 +1,6 @@
 The Katacoda `terminal` layout provides a full Terminal experience. This can be extended to include a full IDE experience as a separate tab by including `showide` within the `environment` section of the `index.json`. For example:
 
-```
+```json
 "environment": {
   "showide": true
 }

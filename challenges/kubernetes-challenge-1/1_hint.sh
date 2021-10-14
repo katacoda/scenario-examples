@@ -1,3 +1,5 @@
+#!/bin/bash
+
 seconds_sofar=$1
 
 if [[ $seconds_sofar -ge 5 &&  $seconds_sofar -lt 10 ]]; then

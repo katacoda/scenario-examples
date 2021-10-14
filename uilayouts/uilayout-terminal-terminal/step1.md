@@ -1,4 +1,4 @@
-The Katacoda `terminal-terminal` UI Layout provides a full Terminal experience. 
+The Katacoda `terminal-terminal` UI Layout provides a full Terminal experience.
 
 # Index.json
 

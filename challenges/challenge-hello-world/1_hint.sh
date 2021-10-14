@@ -1,6 +1,6 @@
-#
+#!/bin/bash
+
 # See hint documentation: https://www.katacoda.community/challenges.html#hints
-#
 
 seconds_sofar=$1
 

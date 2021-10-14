@@ -6,7 +6,7 @@ Katacoda supports three types of Dashboard tabs.
 
 2) **Rendering Proxied Port**. When running a service on a Port within the Environment, Katacoda provides a dynamic URL for the session. This tab will automatically create the correct URL based on the Port you want to display.
 
-3) **Rendering Proxied URL**. Similar to Approach 2, the href parameter supports the standard Katacoda placeholder values, allowing you to direct users to a particular page within to the service running within the Katacoda environment.
+3) **Rendering Proxied URL**. Similar to Approach 2, the href parameter supports the standard Katacoda placeholder values, allowing you to direct users to a particular page within the service, running within the Katacoda environment.
 
 The `index.json` used to create the scenarios is shown below. It is important to remember to set the "showdashboard" variable.
 

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Started"
 
 cat << 'EOF' > /root/multiply.js
@@ -15,7 +17,5 @@ if(x === 4) {
   process.exit(1);
 }
 EOF
-
-
 
 echo 'done' > /opt/katacoda-background-finished

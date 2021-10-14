@@ -1,6 +1,6 @@
 This is an example of Katacoda's clipboard integration. 
 
-The following will copy the text into the clipboard. This is useful if users need to interactive with a web UI.
+The following will copy the text into the clipboard. This is useful if users need to interact with a web interface.
 
 `docker`{{copy}}
 

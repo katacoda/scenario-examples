@@ -1,7 +1,7 @@
 {
-    "type": "challenge@0.7",
-    "title": "Skills Challenge Template",
-    "description": "Basic template for a skills challenge",
+    "type": "challenge@0.8",
+    "title": "Challenge Template",
+    "description": "Basic template for a challenge",
     "difficulty": "Beginner",
     "time": "5 minutes",
     "details": {

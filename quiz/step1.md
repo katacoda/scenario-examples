@@ -27,7 +27,7 @@ Q4 is a single choice where users must select the correct answer.
 
 ## Markdown
 
-All of the above questions have been defined within Markdown. There is no official syntax for a Quiz within markdown, as such the syntax for the above quiz is as follows:
+All of the above questions have been defined within markdown. There is no official syntax for a Quiz within markdown, as such the syntax for the above quiz is as follows:
 
 <pre>
 >>Q1: Enter the extract string test<<
