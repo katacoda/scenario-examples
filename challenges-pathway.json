@@ -3,8 +3,8 @@
   "description": "Examples of how to create Challenges on Katacoda",
   "courses": [{
       "course_id": "challenge-hello-world",
-      "title": "Skills Challenge Template",
-      "description": "Basic template for a skills challenge"
+      "title": "Challenge Template",
+      "description": "Basic template for a challenge"
     },
     {
       "course_id": "node-challenge-1",
