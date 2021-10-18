@@ -77,7 +77,6 @@ console.log(&#x22;Inserted value using the data-marker attribute...&#x22;)
 console.log("Inserted value using the data-marker attribute...")
 </pre>
 
-
 ## New Files
 
 Create a new file via the CLI:

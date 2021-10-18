@@ -1,6 +1,6 @@
 When the background script is running, sometimes it's required that the user is blocked until the script finishes.
 
-In this case, using files as notifications can be useful. 
+In this case, using files as notifications can be useful.
 
 For example, the following is a background script that is running:
 

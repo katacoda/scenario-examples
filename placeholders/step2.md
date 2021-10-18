@@ -6,4 +6,3 @@ Render port 80: <pre>https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environment
 
 Display page allowing user to select port:
 <pre>https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/</pre>
- 

@@ -1,4 +1,4 @@
-To provide users with more information or context, a Answer section can be provided. 
+To provide users with more information or context, a Answer section can be provided.
 
 Here is the snippet from Step 2 within the `index.json`.
 <pre class="file">

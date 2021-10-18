@@ -1,4 +1,4 @@
-This is an example scenario that will be tested using the Cypress integration. 
+This is an example scenario that will be tested using the Cypress integration.
 
 ## IP Address
 

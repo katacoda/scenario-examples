@@ -1,1 +1,1 @@
-Fix multiply.js to execute properly
+Fix multiply.js to execute properly.

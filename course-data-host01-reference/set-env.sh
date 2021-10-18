@@ -1,4 +1,5 @@
 #!/bin/bash
+
 clear
 while [ ! -f /tmp/wait-script.sh ]
 do

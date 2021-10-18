@@ -1,6 +1,6 @@
 You can write files in your scenario using a bash command:
 
-```
+```sh
 cat << EOF > /tmp/storageos-secret.yaml
 apiVersion: v1
 kind: Secret

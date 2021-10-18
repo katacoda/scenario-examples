@@ -14,9 +14,9 @@ Results:
 
 The same functionality as above is available over multiple lines.
 
-Markdown: 
+Markdown:
 <pre>
-```
+```sh
 echo "Line 1"
 
 echo "Line 2"
@@ -26,7 +26,7 @@ echo "Line 3"
 </pre>
 
 Results:
-```
+```sh
 echo "Line 1"
 
 echo "Line 2"
@@ -49,7 +49,7 @@ This creates:
 The same functionality as above is available over multiple lines.
 
 <pre>
-```
+```sh
 echo "Line 1"
 
 echo "Line 2"
@@ -60,7 +60,7 @@ echo "Line 3"
 </pre>
 
 This creates:
-```
+```sh
 echo "Line 1"
 
 echo "Line 2"

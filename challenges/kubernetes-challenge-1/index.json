@@ -1,5 +1,5 @@
 {
-  "type": "challenge@0.7",
+  "type": "challenge@0.8",
   "title": "Challenge Example - Kubernetes",
   "description": "",
   "difficulty": "Advance",
@@ -37,6 +37,6 @@
     "hidesidebar": true
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "kubernetes-cluster-running:1.21"
   }
 }
