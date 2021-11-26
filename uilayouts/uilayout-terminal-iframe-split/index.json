@@ -16,7 +16,7 @@
         "uilayout": "terminal-iframe-split"
     },
     "backend": {
-        "imageid": "ubuntu",
+        "imageid": "ubuntu:2004",
         "port": 80
     }
 }
