@@ -1,0 +1,64 @@
+{
+  "type": "challenge@0.8",
+  "title": "Challenge Example - Linux Challenge Using the Solver Utility",
+  "description": "An example challenge showing authors how to use the solver features.",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "courseData": "init-background.sh",
+      "code": "init-foreground.sh",
+      "credits": "[Jonathan Johnson](http://www.dijure.com)"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "steps": [
+      {
+        "title": "Moo!",
+        "text": "task_1.md",
+        "verify": "verify.sh",
+        "hint": "hint.sh"
+      },
+      {
+        "title": "Formatting Output",
+        "text": "task_2.md",
+        "verify": "verify.sh",
+        "hint": "hint.sh"
+      },
+      {
+        "title": "Hey Stella!",
+        "text": "task_3.md",
+        "verify": "verify.sh",
+        "hint": "hint.sh"
+      },
+      {
+        "title": "Powerful xargs",
+        "text": "task_4.md",
+        "verify": "verify.sh",
+        "hint": "hint.sh"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {"file": "verifications.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+        {"file": "hints.md", "target": "/opt"},
+        {"file": "solutions.sh.enc", "target": "/opt"},
+
+        {"file": "streetcar.pdf", "target": "/root"},
+        {"file": "my-xargs.sh", "target": "/root", "chmod": "+x"}
+      ]
+    }
+  },
+
+  "environment": {
+    "showide": true,
+    "hidesidebar": true,
+    "uilayout": "terminal"
+  },
+
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

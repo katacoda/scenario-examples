@@ -15,6 +15,11 @@
       "course_id": "kubernetes-challenge-1",
       "title": "Challenge Example - Kubernetes",
       "description": "How to create a challenge on using Kubernetes"
+    },
+    {
+      "course_id": "challenge-linux-solver",
+      "title": "Challenge Example - Linux Challenge Using the Solver Utility",
+      "description": "An example challenge showing authors how to use the solver features"
     }
   ]
 }
