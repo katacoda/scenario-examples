@@ -7,5 +7,3 @@ In this scenario, within the Assets directory, a `logo-text-with-head.png` file 
 </pre>
 
 ![Katacoda Logo](./assets/logo-text-with-head.png)
-
-While relative paths may work, for most browsers we recommend using the absolute path.
