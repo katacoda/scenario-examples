@@ -20,8 +20,8 @@ For example, to create a new scenario you would run the command `katacoda scenar
 - **Difficulty level:** provide users with a sense of the depth of content, displayed on the intro screen
 - **Estimated time:** provide users with an estimated time to complete, displayed on the intro screen
 - **Number of steps:** the numbers of the steps that the scenario will contain. The CLI will create all the template files for all the steps that you specified
-- **Image:** it will determine which base software will be available for your scenario. For example, if you need docker, java, go, etc as a pre-requisite. For more information read [katacoda.com/docs/scenarios/environments](https://katacoda.com/docs/scenarios/environments)
-- **Layout:** it will determine the disposition of the elements of your scenario. For example, if you want to present only a terminal, or editor + terminal, etc. For more information read [katacoda.com/docs/scenarios/layouts](https://katacoda.com/docs/scenarios/layouts)
+- **Image:** it will determine which base software will be available for your scenario. For example, if you need docker, java, go, etc as a pre-requisite. For more information read [Supported Environments](https://www.katacoda.community/essentials/environments.html)
+- **Layout:** it will determine the disposition of the elements of your scenario. For example, if you want to present only a terminal, or editor + terminal, etc. For more information read [Supported Layouts](https://www.katacoda.community/essentials/layouts.html)
 
 With this information, the CLI will create a folder with the name of the ***friendly URL*** introduced and will create inside of that folder the required files for your scenario.
 
