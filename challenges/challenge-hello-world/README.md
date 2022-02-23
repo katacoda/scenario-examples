@@ -15,7 +15,7 @@ Here is a quick lay of the land:
 ```json
 	"steps": [
 	    {
-	        "title": "Task 1: Bananas",
+	        "title": "Bananas",
 	        "text": "1_task.md",
 	        "verify": "1_verify.sh",
 	        "hint": "1_hint.sh"

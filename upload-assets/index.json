@@ -5,7 +5,7 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1",
+                "title": "Upload Assets",
                 "text": "step1.md",
                 "courseData": "background.sh",
                 "code": "foreground.sh"

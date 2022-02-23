@@ -5,7 +5,7 @@ Here is the snippet from Step 2 within the `index.json`.
 "details": {
     "steps": [
         {
-            "title": "Step 2 - Show Answers",
+            "title": "Show Answers",
             "text": "step2.md",
             "answer": "step2-answer.md"
         }

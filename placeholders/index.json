@@ -6,12 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - IP Addresses",
+        "title": "IP Addresses",
         "code": "foreground1.sh",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - URLs",
+        "title": "URLs",
         "code": "foreground2.sh",
         "text": "step2.md"
       }

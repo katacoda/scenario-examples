@@ -4,11 +4,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Control Plane Node",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Worker Node",
         "text": "step2.md"
       }
     ],

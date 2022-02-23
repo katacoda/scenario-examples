@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Running Kubernetes",
         "text": "step1.md"
       }
     ],

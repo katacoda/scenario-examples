@@ -15,7 +15,7 @@ The `index.json` example is:
 "details": {
     "steps": [
         {
-            "title": "Step 1 - Verify",
+            "title": "Verify",
             "text": "step1.md",
             "verify": "step1-verify.sh"
         }

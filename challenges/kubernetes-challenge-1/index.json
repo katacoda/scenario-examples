@@ -7,13 +7,13 @@
   "details": {
     "steps": [
       {
-        "title": "Task 1 - Output env",
+        "title": "Output env",
         "text": "1_task.md",
         "verify": "1_verify.sh",
         "hint": "1_hint.sh"
       },
       {
-        "title": "Task 2 - Extract app.js",
+        "title": "Extract app.js",
         "text": "2_task.md",
         "verify": "2_verify.sh"
       }

@@ -4,7 +4,7 @@ The syntax is the same as when defining scripts for intro.
 
 <pre>
 {
-    "title": "Step 2",
+    "title": "Scripts Example",
     "courseData": "step2-background.sh",
     "code": "step2-foreground.sh",
     "text": "step2.md"

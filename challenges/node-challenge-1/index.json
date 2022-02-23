@@ -7,7 +7,7 @@
   "details": {
     "steps": [
       {
-        "title": "Task 1 - Fix Tests",
+        "title": "Fix Tests",
         "text": "1_task.md",
         "verify": "1_verify.sh"
       }

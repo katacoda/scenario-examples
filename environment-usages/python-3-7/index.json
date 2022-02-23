@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Python",
         "text": "step1.md",
         "foreground": "foreground.sh"
       }

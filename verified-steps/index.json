@@ -5,12 +5,12 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Verify",
+                "title": "Verify",
                 "text": "step1.md",
                 "verify": "step1-verify.sh"
             },
             {
-                "title": "Step 2 - Show Answers",
+                "title": "Show Answers",
                 "text": "step2.md",
                 "answer": "step2-answer.md"
             }
