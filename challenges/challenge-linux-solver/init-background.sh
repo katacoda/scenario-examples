@@ -45,19 +45,19 @@ docker cp "$ID":/application /usr/local/bin/solver
 
 verify_solver_install
 if [ $? -ne 0 ]; then
-    echo "Failed to download solver from $SOLVER_CONTAINER_IMAGE:$SOLVER_VERSION"
+  echo "Failed to download solver from $SOLVER_CONTAINER_IMAGE:$SOLVER_VERSION"
 
-    # Second download request - download solver linux binary from release page
-    RELEASE="https://github.com/javajon/katacoda-solver/releases/download/$SOLVER_VERSION/solver-$SOLVER_VERSION-runner"
-    wget -q -O solver $RELEASE
-    chmod +x solver
-    mv solver /usr/local/bin/
-fi
+  # Second download request - download solver linux binary from release page
+  RELEASE="https://github.com/javajon/katacoda-solver/releases/download/$SOLVER_VERSION/solver-$SOLVER_VERSION-runner"
+  wget -q -O solver $RELEASE
+  chmod +x solver
+  mv solver /usr/local/bin/
 
-verify_solver_install
-if [ $? -ne 0 ]; then
-  echo "Failed to download solver from github release page: $RELEASE"
-  # init-foreground displays messsage on linux prompt that there is a problem.
+  verify_solver_install
+  if [ $? -ne 0 ]; then
+    echo "Failed to download solver from github release page: $RELEASE"
+    # init-foreground displays messsage on linux prompt that there is a problem.
+  fi
 fi
 
 # Signal to challenge controller that the startup is complete
