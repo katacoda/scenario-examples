@@ -43,7 +43,8 @@ SOLVER_CONTAINER_IMAGE=ghcr.io/javajon/solver
 ID=$(docker create $SOLVER_CONTAINER_IMAGE:$SOLVER_VERSION)
 docker cp "$ID":/application /usr/local/bin/solver
 
-if [ verify_solver_install() -ne 0 ]; then
+verify_solver_install
+if [ $? -ne 0 ]; then
     echo "Failed to download solver from $SOLVER_CONTAINER_IMAGE:$SOLVER_VERSION"
 
     # Second download request - download solver linux binary from release page
@@ -51,11 +52,10 @@ if [ verify_solver_install() -ne 0 ]; then
     wget -q -O solver $RELEASE
     chmod +x solver
     mv solver /usr/local/bin/
-
-    return $?
 fi
 
-if [ verify_solver_install() -ne 0 ]; then
+verify_solver_install
+if [ $? -ne 0 ]; then
   echo "Failed to download solver from github release page: $RELEASE"
   # init-foreground displays messsage on linux prompt that there is a problem.
 fi
