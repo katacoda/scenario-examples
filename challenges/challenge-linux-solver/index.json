@@ -3,7 +3,7 @@
   "title": "Challenge Example - Linux Challenge Using the Solver Utility",
   "description": "An example challenge showing authors how to use the solver features.",
   "difficulty": "Beginner",
-  "time": "30 minutes",
+  "time": "15 minutes",
   "details": {
     "intro": {
       "text": "intro.md",

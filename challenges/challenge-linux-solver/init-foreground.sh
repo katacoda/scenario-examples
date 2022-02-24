@@ -65,7 +65,12 @@ start_progress () {
   done
 
   stty sane; tput cnorm; clear
-  printf "%s\n\n" "${end_message}"
+  solver --version | grep "version">/dev/null 2>&1
+  if [ $? -ne 0 ]; then
+    printf "This challenge did not appear to start correctly. Refresh this browser page to try again.\n\n"
+  else
+    printf "%s\n\n" "${end_message}"
+  fi
   
   # Pick up any changes during background
   source ~/.bashrc
