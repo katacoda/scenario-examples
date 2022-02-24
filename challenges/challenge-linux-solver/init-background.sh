@@ -31,7 +31,7 @@ echo '-s' >> ~/.curlrc
 # than the container registry.
 
 # The 'solver create' command will install this script and ensure this version matches the utilized solver version.
-SOLVER_VERSION=0.5.3
+SOLVER_VERSION=0.5.4
 
 function verify_solver_install() {
   solver --version | grep $SOLVER_VERSION
