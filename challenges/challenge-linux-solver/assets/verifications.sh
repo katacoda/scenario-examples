@@ -5,13 +5,6 @@
 # When a verification fails for a step, the error number returned corresponds 
 # to the hint number found in hints.md.
 
-# Delay before first hint and between steps. Zero or positive integer in seconds.
-export HINTS_DELAY=15
-
-# Max time for verify blocking commands. Zero or positive integer time units s, m, h.
-export VERIFY_TIMEOUT=3s
-
-
 function verify_task_1() {
   dpkg-query -l | grep cowsay
   if [[ $? -ne 0 ]]
