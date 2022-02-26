@@ -1,6 +1,6 @@
 ## Start HTTP Server
 
-`docker run -p 80:80 -d katacoda/docker-http-server`{{execute}}
+`docker container run -p 80:80 -d katacoda/docker-http-server`{{execute}}
 
 ## Test
 

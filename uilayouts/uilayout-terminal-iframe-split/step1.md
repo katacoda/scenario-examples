@@ -18,6 +18,4 @@ More information can be found at https://katacoda.com/scenario-examples/scenario
 
 # Example
 
-`docker run -p 80:80 -d katacoda/docker-http-server`{{execute}}
-
-# Helper Functionality
+`docker container run -p 80:80 -d katacoda/docker-http-server`{{execute}}
