@@ -17,6 +17,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "dotnet:3.1"
+    "imageid": "dotnet:6.0"
   }
 }
