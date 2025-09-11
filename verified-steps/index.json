@@ -12,7 +12,7 @@
             {
                 "title": "Show Answers",
                 "text": "step2.md",
-                "answer": "step2-answer.md"
+                "solutionText": "step2-answer.md"
             }
         ]
     },
